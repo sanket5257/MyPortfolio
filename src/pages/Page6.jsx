@@ -10,7 +10,7 @@ const Page6 = () => {
           loop
           muted
           className="h-[50vh] lg:h-[100vh] w-full object-cover"
-          src="/src/assets/moon.mp4"
+          src="./src/assets/moon.mp4"
         ></video>
         <div className="flex lg:justify-between flex-col h-[60vh] -top-10 lg:w-[100vw] w-[50vw] absolute left-4 lg:left-20 ">
           <div className=" w-full h-[50vh] lg:h-[60vh] lg:w-full" >
