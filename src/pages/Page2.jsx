@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 useGSAP(function(){
 
-  if(window.innerWidth>740){
+  if(window.innerWidth>1000){
   gsap.from(".rotateText",{
     transform:'rotateX(-80deg)',
     opacity:0,

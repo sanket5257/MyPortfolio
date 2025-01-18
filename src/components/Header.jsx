@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed w-full z-50 p-10 sm:p-12 md:p-16 lg:p-20 flex items-center justify-end">
+    <div className="fixed w-full z-50 p-16 sm:p-12 md:p-16 lg:p-20 flex items-center justify-end">
   <button 
     onClick={handleScrollToHireMe} 
     className="bg-black border-4 text-cyan-50 px-6 py-2 sm:px-8 sm:py-3 rounded-full hover:bg-gray-500 transition-all duration-200">
