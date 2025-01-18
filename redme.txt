@@ -1,0 +1,5 @@
+to create react folder --> npm create vite
+to install packages --> npm install
+to run server --> npm run dev
+
+make components folder in src to make heder and footer and other things

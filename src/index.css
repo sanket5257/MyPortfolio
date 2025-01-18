@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* to use downloaded font and anzo is name given by me  */
+@font-face {
+    font-family: anzo;
+    src: url(./assets/file.woff2);
+}
+
+@font-face {
+    font-family: anzo1;
+    src: url(./assets/file1.woff2);
+}
+@font-face {
+    font-family: anzo2;
+    src: url(./assets/file2.woff2);
+}
+@font-face {
+    font-family: anzo3;
+    src: url(./assets/file3.woff2);
+}
+@font-face {
+    font-family: anzo4;
+    src: url(./assets/file4.woff2);
+}
+
+
+@font-face {
+    font-family: anzo6;
+    src: url(./assets/madefor-text.var.original.woff2);
+}
+
+#page1-in{
+    position: relative;
+    perspective: 1000px;
+}
+
+#section2{
+    position: relative;
+    perspective: 3000px;
+}
+
+.rotateText{
+    /* transform-origin: 100% 70%; */
+}
+
+#tiltDiv{
+    /* background-color: rebeccapurple; */
+    /* transform: rotateY(20deg); */
+    width: fit-content;
+}
