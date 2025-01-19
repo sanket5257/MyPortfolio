@@ -56,7 +56,7 @@
 @media (max-width: 768px) {
     html {
       scroll-behavior: smooth; /* Enable smooth scrolling */
-      overflow: hidden; /* Hide scrollbar */
+    
     }
     
     
