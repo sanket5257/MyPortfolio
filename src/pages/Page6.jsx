@@ -3,16 +3,16 @@ import Page6Bottom from "../components/Page6Bottom";
 
 const Page6 = () => {
   return (
-    <div className="h-[200vh] lg:h-[140vh] md:h-[180vh] bg-white p-2 relative  z-40">
-      <div className="h-[200vh] lg:h-[140vh] md:h-[180vh] w-full overflow-hidden bg-black rounded-[4.9vh]">
+    <div className="h-[260vh] lg:h-[140vh] md:h-[180vh] bg-white p-2 relative  z-40">
+      <div className="h-[260vh] lg:h-[140vh] md:h-[180vh] w-full overflow-hidden bg-black rounded-[4.9vh]">
         <video
           autoPlay
           loop
           muted
           className="h-[50vh] lg:h-[100vh] w-full object-cover"
-          src="/src/assets/moon.mp4"
+          src="./src/assets/moon.mp4"
         ></video>
-        <div className="flex lg:justify-between flex-col h-[60vh] -top-10 lg:w-[100vw] w-[50vw] absolute left-4 lg:left-20 ">
+        <div className="flex lg:justify-between flex-col h-[60vh] -top-5 lg:w-[100vw] w-[50vw] absolute left-7 lg:left-20 ">
           <div className=" w-full h-[50vh] lg:h-[60vh] lg:w-full" >
             <h1 className="absolute   font-[anzo4] uppercase text-[40vw] lg:text-[20vw] text-gray-400">
               HOW

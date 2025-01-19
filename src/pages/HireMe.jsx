@@ -27,8 +27,8 @@ const HireMe = () => {
       
       </div>
       <div id='contact' className='absolute flex justify-between items-center h-screen w-[90vw] lg:w-[30vw] top-0 left-14 md:left-[24vw] sm:left-[20vw] lg:left-[45vw]'>
-        <img  id='rotateImage' src="https://static.wixstatic.com/media/f1c650_7a84fb38cb2d4bebb8b34004f66d4c3d~mv2.png/v1/fill/w_128,h_128,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/World%20Contact.png" alt="" />
-        <div  className="text-gray-400 absolute ml-[28vw] lg:ml-[14vw] text-sm lg:text-xl ">
+        <img  id='rotateImage' className='h-20 lg:h-32' src="https://static.wixstatic.com/media/f1c650_7a84fb38cb2d4bebb8b34004f66d4c3d~mv2.png/v1/fill/w_128,h_128,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/World%20Contact.png" alt="" />
+        <div  className="text-gray-400 absolute ml-[25vw] lg:ml-[14vw] text-sm lg:text-xl ">
         <div> 
         <h1>GET IN TOUCH</h1>
         <h1>EMAIL: <span className="text-white font-[anzo1]">chougulesanket30@gmail.com</span>  </h1>
@@ -46,11 +46,11 @@ const HireMe = () => {
         <h1>BUT <span className="text-white font-[anzo1]">OFFERING THE TRANSFORMATION!</span>  </h1>
         </div>
        
-        <div id='footer' className='text-sm lg:text-xl mt-5'>
-          <h1>@2025ft.leostudio</h1>
+        
+         
+        
         </div>
-        </div>
-
+        <h1 className='top-[90vh] text-gray-400 text-sm lg:text-xl lg:right-10  ml-28  absolute'>@2025ft.leostudio</h1>
     </div>
   )
 }
