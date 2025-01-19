@@ -19,9 +19,9 @@ const HireMe = () => {
   return (
     <div id='HireMe' className='lg:top-[40vh] h-screen relative bg-white p-4 '>
         <div id='page1-in'  className=' shadow-xl relative  p-2 shadow-gray-700 h-full w-full bg-cover bg-[url(https://static.wixstatic.com/media/f1c650_1baf8f9dcad444669565ec73ee697a92~mv2.jpg/v1/fill/w_1854,h_1005,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Background%20Anzo_Studio.jpg)] rounded-[50px]'>
-        <h1 className="absolute px-4 lg:px-20 top-[10px] font-[anzo4] uppercase text-[20vw] text-gray-400">GOT AN</h1>
+        <h1 className="absolute px-4 lg:px-20 top-0 font-[anzo4] uppercase text-[22vw]  text-gray-400">GOT AN</h1>
 
-<h1 h1  className="absolute px-4 lg:px-20 top-[12vh] sm:top-[17vh] md:top-[20vh] lg:top-[30vh] font-[anzo4] uppercase text-[20vw] text-white">IDEA</h1>
+<h1 h1  className="absolute px-4 lg:px-20 top-[12vh] sm:top-[17vh] md:top-[20vh] lg:top-[35vh] font-[anzo4] uppercase text-[20vw] text-white">IDEA</h1>
 
 
       

@@ -12,13 +12,13 @@ const Page6 = () => {
           className="pointer-events-none h-[50vh] lg:h-[100vh] w-full object-cover"
           src="https://video.wixstatic.com/video/11062b_92619c730c4b4b0bb27ea39c4276a52b/480p/mp4/file.mp4"
         ></video>
-        <div className="flex lg:justify-between flex-col h-[60vh] -top-5 lg:w-[100vw] w-[50vw] absolute left-7 lg:left-20 ">
+        <div className="flex lg:justify-between flex-col h-[60vh] -top-5 lg:-top-10 lg:w-[100vw] w-[50vw] absolute left-7 lg:left-20 ">
           <div className=" w-full h-[50vh] lg:h-[60vh] lg:w-full" >
             <h1 className="absolute   font-[anzo4] uppercase text-[40vw] lg:text-[20vw] text-gray-400">
               HOW
             </h1>
 
-            <h1 className="absolute lg:top-[30vh]  top-[19vh] sm:top-[25vh] md:top-[38vh] font-[anzo4] uppercase text-[40vw] lg:text-[20vw] text-white">
+            <h1 className="absolute lg:top-[36vh]  top-[19vh] sm:top-[25vh] md:top-[38vh] font-[anzo4] uppercase text-[40vw] lg:text-[20vw] text-white">
               CAN
             </h1>
           </div>
@@ -28,7 +28,7 @@ const Page6 = () => {
               I HELP
             </h1>
 
-            <h1 className="absolute  lg:top-[30vh] top-[57vh]  sm:top-[75vh] md:top-[115vh] font-[anzo4] uppercase text-[40vw] lg:text-[20vw] text-white">
+            <h1 className="absolute  lg:top-[36vh] top-[57vh]  sm:top-[75vh] md:top-[115vh] font-[anzo4] uppercase text-[40vw] lg:text-[20vw] text-white">
               YOU
             </h1>
           </div>
