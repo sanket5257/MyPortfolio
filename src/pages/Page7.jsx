@@ -34,9 +34,10 @@ useGSAP(function () {
 
   return (
     
-    <div className='relative flex items-center justify-center h-screen '>
-        <img className='mobileview  relative top-[0] lg:top-32 lg:h-[150vh]  z-20 h-[60vh] md:h-[100vh] w-full  object-cover ' src="https://static.wixstatic.com/media/f1c650_360814da288f418991547fa9d5e08904~mv2.png/v1/fill/w_942,h_725,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Subtract.png" alt="" />
-            <img className='upward absolute h-[50vh] sm:h-[60vh] md:h-[95vh] lg:h-[150vh] ' src="https://static.wixstatic.com/media/f1c650_8b19a36c22b44b04aa056d2f4482aeac~mv2.jpeg/v1/fill/w_1206,h_974,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f1c650_8b19a36c22b44b04aa056d2f4482aeac~mv2.jpeg" alt="" />
+    <div className='w-[100vw] sm:h-[95vw] h-[100vh] lg:h-[70vh] p-4 pt-12 '>
+      <div className='lg:h-screen sm:h-[90vw]   flex items-center justify-center   lg:w-[98vw] bg-black rounded-[7vh] overflow-hidden'> 
+        <video autoPlay loop muted playsInline className='pointer-events-none h-[90vh] lg:h-[150vh] object-cover' src="./man.mp4"></video>
+        </div>
     </div>
   )
 }
