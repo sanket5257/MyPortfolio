@@ -50,3 +50,19 @@
     /* transform: rotateY(20deg); */
     width: fit-content;
 }
+
+/* Smooth scroll for mobile devices */
+/* Smooth scroll and hide scrollbar for mobile devices */
+@media (max-width: 768px) {
+    html {
+      scroll-behavior: smooth; /* Enable smooth scrolling */
+      overflow: hidden; /* Hide scrollbar */
+    }
+    
+    
+  }
+ 
+
+  
+  
+  

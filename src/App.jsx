@@ -8,7 +8,6 @@ import Page5 from './pages/Page5'
 import Page6 from './pages/Page6'
 import Page7 from './pages/Page7'
 import HireMe from './pages/HireMe'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
     <>
