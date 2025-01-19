@@ -3,8 +3,8 @@ import Page6Bottom from "../components/Page6Bottom";
 
 const Page6 = () => {
   return (
-    <div className="h-[260vh] lg:h-[140vh] md:h-[180vh] bg-white p-2 relative  z-40">
-      <div className="h-[260vh] lg:h-[140vh] md:h-[180vh] w-full overflow-hidden bg-black rounded-[4.9vh]">
+    <div className="h-[230vh] lg:h-[140vh] md:h-[180vh] bg-white p-2 relative  z-40">
+      <div className="h-[230vh] lg:h-[140vh] md:h-[180vh] w-full overflow-hidden bg-black rounded-[4.9vh]">
         <video
           autoPlay
           loop

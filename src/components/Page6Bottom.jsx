@@ -3,7 +3,7 @@ import React from "react";
 const Page6Bottom = () => {
   return (
     <div>
-    <div className="absolute lg:h-[30%] h-[30vh] w-[65vw] md:w-[60vw] lg:w-full lg:bottom-0 -right-9 flex items-center justify-between lg:flex-row flex-col top-[30vh] lg:top-[70vh] sm:top-[78vh]">
+    <div className="absolute lg:h-[30%] h-[30vh] w-[65vw] md:w-[60vw] lg:w-full lg:bottom-0 -right-9 flex items-center justify-between lg:flex-row flex-col top-[28vh] lg:top-[70vh] sm:top-[78vh]">
       <div id="description" className="lg:w-1/3 flex  justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm ">
         <div>
           <h3>
