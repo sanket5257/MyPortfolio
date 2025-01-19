@@ -6,7 +6,7 @@ const Page6Bottom = () => {
       <div className="absolute lg:h-[45%] h-[30vh] w-[65vw] md:w-[60vw] md:text-l lg:w-full lg:bottom-0 -right-9 flex lg:flex-wrap items-center justify-between lg:flex-row flex-col top-[28vh] lg:top-[70vh] sm:top-[78vh]">
         <div
           id="description"
-          className="lg:w-1/3 flex  justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm "
+          className="lg:w-1/3 flex  xl:text-[1.1vw]  justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm "
         >
           <div>
             <h3>
@@ -31,7 +31,7 @@ const Page6Bottom = () => {
         </div>
         <div
           id="description"
-          className="lg:w-1/3 flex items-center justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm"
+          className="lg:w-1/3 xl:text-[1.1vw] flex items-center justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm"
         >
           <div>
             <h3>
@@ -56,7 +56,7 @@ const Page6Bottom = () => {
         </div>
         <div
           id="description"
-          className="lg:w-1/3 flex items-center justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm "
+          className="lg:w-1/3 xl:text-[1.1vw] flex items-center justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm "
         >
           <div>
             <h3>
@@ -80,7 +80,7 @@ const Page6Bottom = () => {
           <div></div>
         </div>
       </div>
-      <div className="text-gray-400 absolute bottom-10 ml-4 text-sm lg:text-xl md:text-lg">
+      <div className="text-gray-400 absolute xl:text-[1.2vw] xl:ml-6 bottom-10 ml-4 text-sm lg:text-xl md:text-lg">
         <h1>GOT A PROJECT?</h1>
         <h1>
           THEN PLEASE{" "}
