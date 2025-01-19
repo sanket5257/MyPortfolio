@@ -4,6 +4,7 @@ import Page1Bottom from '../components/Page1Bottom'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import TiltText from '../components/TiltText'
+import logo from '../assets/logo.png'
 
 
 const Page1 = () => {
@@ -37,7 +38,7 @@ useGSAP(function(){
       mouseMoving(e)
     }} className='h-screen relative bg-white p-4 '>
       <div id='page1-in'  className='shadow-xl relative p-2 lg:p-10 shadow-gray-700 h-full w-full bg-cover bg-[url(https://wallpapercave.com/wp/wp2739203.jpg)] rounded-[5vh]'>
-      <img className='h-[14vh] absolute top-8 lg:top-4'  src="./src/assets/symbol-removebg-preview.png" alt="" />
+      <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" />
 
       <TiltText abc={tiltRef}/>
         <Page1Bottom/>

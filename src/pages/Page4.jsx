@@ -4,7 +4,7 @@ const Page4 = () => {
   return (
     <div className='h-screen bg-white p-10 relative '>
     <div className='h-full w-full overflow-hidden bg-black rounded-[4.9vh]'>
-      <video autoPlay muted loop className='object-cover h-[100vh]' src="./src/assets/page4bg.mp4"></video>
+      <video autoPlay muted loop className='object-cover h-[100vh]' src="https://video.wixstatic.com/video/11062b_47e99a65fe474b159516ea5aea634f53/480p/mp4/file.mp4"></video>
       <h1 className="absolute px-10 top-[3vh] font-[anzo4] uppercase lg:text-[20vw] text-[30vw] text-gray-400">WHAT</h1>
 
       <h1  className="absolute px-10 lg:top-[31vh] top-[17vh] md:top-[27vh] sm:top-[25vh] font-[anzo4] uppercase text-[30vw] lg:text-[20vw] text-white">I DO</h1>
