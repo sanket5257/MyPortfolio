@@ -17,7 +17,7 @@ const mouseMoving=(e)=>{
 
 // console.log(tiltRef.current.getBoundingClientRect())
 
-setXVal((e.clientX - tiltRef.current.getBoundingClientRect().x - tiltRef.current.getBoundingClientRect().width/2)/70)
+setXVal((e.clientX - tiltRef.current.getBoundingClientRect().x - tiltRef.current.getBoundingClientRect().width/2)/50)
 setYVal(-(e.clientY - tiltRef.current.getBoundingClientRect().y - tiltRef.current.getBoundingClientRect().height/2)/20)
 // setYVal(e.clientY/100)
 
