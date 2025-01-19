@@ -2,8 +2,8 @@ import React from 'react'
 
 const Page4 = () => {
   return (
-    <div className='h-screen bg-white p-10 relative '>
-    <div className='h-full w-full overflow-hidden bg-black rounded-[4.9vh]'>
+    <div className='h-screen md:h-[100vh] bg-white p-10 relative '>
+    <div className='h-full w-full md:h-[100vh] overflow-hidden bg-black rounded-[4.9vh]'>
       <video autoPlay muted loop playsInline className='pointer-events-none object-cover h-[100vh]' src="https://video.wixstatic.com/video/11062b_47e99a65fe474b159516ea5aea634f53/480p/mp4/file.mp4"></video>
       <h1 className="absolute px-10 md:-top-[1vh] top-[3vh] font-[anzo4] uppercase lg:text-[20vw] text-[30vw] text-gray-400">WHAT</h1>
 
@@ -12,9 +12,9 @@ const Page4 = () => {
 
       <div className='absolute bottom-10 p-10 flex items-end justify-between left-0 w-full '>
         <div className='ml-12'>
-            <h2 className='text-white lg:text-2xl text-sm font-[anzo1]'>I DESIGN AND DEVELOP </h2>
-            <h3 className=' lg:text-2xl font-[anzo2] text-sm text-gray-400'>MODERN, IMPACTFUL AND LUXURIOUS</h3>
-            <h2 className='text-white lg:text-2xl text-sm font-[anzo1]'>websites that seamlessly bridge your goals with needs of your clients.</h2>
+            <h2 className='text-white md:text-xl lg:text-2xl text-sm font-[anzo1]'>I DESIGN AND DEVELOP </h2>
+            <h3 className=' lg:text-2xl md:text-xl  font-[anzo2] text-sm text-gray-400'>MODERN, IMPACTFUL AND LUXURIOUS</h3>
+            <h2 className='text-white md:text-xl lg:text-2xl text-sm font-[anzo1]'>websites that seamlessly bridge your goals with needs of your clients.</h2>
 
            
         </div>
