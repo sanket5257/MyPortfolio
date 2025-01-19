@@ -51,7 +51,7 @@ const MyComponent = (props) => {
         {
           opacity: 1,
           y: 0,
-          duration: 1.5,
+          duration: 2.5,
           ease: 'power3.out',
           stagger: 0.3, // Stagger the text animation for a better visual effect
         }
@@ -66,7 +66,7 @@ const MyComponent = (props) => {
       className="text-white ml-8 mt-[25vh] animate-text"
     >
       <h1 className="text-[6vw] lg:text-[4.2vw] leading-[4vw] lg:leading-[4vw] font-[anzo]">
-        HI, I'M <span className="text-black">CREATIVE </span>
+        HI, I'M <span className=" text-slate-400">CREATIVE </span>
       </h1>
       <h1 className="font-[anzo] lg:text-[8vw] leading-[11vw] lg:leading-[7vw] text-[10vw] animate-text">
         DEVELOPER

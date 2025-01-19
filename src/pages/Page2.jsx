@@ -60,7 +60,7 @@ const Page2 = () => {
         </h1>
       </div>
 
-      <div className="h-1 w-1/3 relative left-1/2 -translate-x-1/2 mt-20 bg-black"></div>
+      {/* <div className="h-1 w-1/3 relative left-1/2 -translate-x-1/2 mt-20 bg-black"></div> */}
     </div>
   );
 };
