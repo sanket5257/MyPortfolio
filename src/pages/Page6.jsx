@@ -5,11 +5,11 @@ const Page6 = () => {
   return (
     <div className="h-[230vh]  lg:h-[140vh] md:h-[180vh] bg-white p-2 relative  z-40">
       <div className="h-[230vh]  lg:h-[140vh] md:h-[180vh] w-full overflow-hidden bg-black rounded-[4.9vh]">
-        <video
+        <video playsInline
           autoPlay
           loop
           muted
-          className="h-[50vh] lg:h-[100vh] w-full object-cover"
+          className="pointer-events-none h-[50vh] lg:h-[100vh] w-full object-cover"
           src="https://video.wixstatic.com/video/11062b_92619c730c4b4b0bb27ea39c4276a52b/480p/mp4/file.mp4"
         ></video>
         <div className="flex lg:justify-between flex-col h-[60vh] -top-5 lg:w-[100vw] w-[50vw] absolute left-7 lg:left-20 ">
