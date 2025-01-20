@@ -3,8 +3,8 @@ import Page6Bottom from "../components/Page6Bottom";
 
 const Page6 = () => {
   return (
-    <div className="h-[230vh] xl:w-full  lg:h-[140vh] md:h-[180vh] bg-white p-2 relative  z-40">
-      <div className="h-[230vh]  lg:h-[160vh] md:h-[180vh] xl:w-full overflow-hidden bg-black rounded-[4.9vh]">
+    <div className="h-[230vh] xl:h-[200vh] xl:w-full  lg:h-[240vh] md:h-[220vh] bg-white p-2 relative  z-40">
+      <div className="h-[230vh]  lg:h-[240vh] xl:h-[200vh] md:h-[220vh] xl:w-full overflow-hidden bg-black rounded-[4.9vh]">
         <video
           playsInline
           autoPlay
@@ -35,7 +35,15 @@ const Page6 = () => {
 
        
       </div>
+
+
+      <Page6Bottom/>
+
+
     </div>
+
+     
+
   );
 };
 

@@ -3,10 +3,10 @@ import React from "react";
 const Page6Bottom = () => {
   return (
     <div>
-      <div className="absolute lg:h-[45%] h-[30vh] w-[65vw] md:w-[60vw] md:text-l lg:w-full lg:bottom-0 -right-9 flex lg:flex-wrap items-center justify-between lg:flex-row flex-col top-[28vh] lg:top-[70vh] sm:top-[78vh]">
+      <div className="absolute top-[65vh]  flex flex-col xl:flex xl:flex-row xl:items-center xl:w-[98vw] xl:h-[80vh] xl:top-[60vh] sm:top-[85vh] md:top-[110vh] lg:top-[140vh]  ">
         <div
           id="description"
-          className="lg:w-1/3 flex  xl:text-[1.1vw]  justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm "
+          className="xl:w-[40vw] flex h-[40vh] sm:h-[25vh] md:h-[25vh]  justify-center text-white p-16 font-[anzo3] text-sm xl:text-2xl "
         >
           <div>
             <h3>
@@ -14,24 +14,22 @@ const Page6Bottom = () => {
               creating unique and timeless masterpieces for ambitious
               professionals, entrepreneurs, artists, and boutique businesses. ​
             </h3>
-            <div className="flex items-center justify-start mt-12 ">
+            <div className="flex items-center justify-between  pt-8  ">
               <img
-                className="mr-6 mb-6 h-14"
+                className="h-[10vh] ml-4"
                 src="https://static.wixstatic.com/media/f1c650_67833facdc7a47d5aae7870d4fb7fc3e~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SUN.png"
                 alt=""
               />
 
-              <h1 className="font-[anzo4] text-[5vw]">
-                DESIGN <span className="font-[anzo3] text-xl">01</span>
+              <h1 className="font-[anzo4] text-[8vw] xl:text-[5vw]">
+                DESIGN <span className="font-[anzo3] text-[4vw] xl:text-[2vw] ">01</span>
               </h1>
             </div>
           </div>
-
-          <div></div>
         </div>
         <div
           id="description"
-          className="lg:w-1/3 xl:text-[1.1vw] flex items-center justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm"
+          className=" xl:w-[40vw] flex h-[40vh] sm:h-[25vh] md:h-[25vh]  justify-center text-white p-16 font-[anzo3] text-sm xl:text-2xl"
         >
           <div>
             <h3>
@@ -39,48 +37,45 @@ const Page6Bottom = () => {
               expertise in web development, I aim to minimize my client's
               resources spent on macro and micro-management, marketing research.
             </h3>
-            <div className="flex items-center justify-start mt-8 ">
+            <div className="flex items-center justify-between  pt-8 ">
               <img
-                className="mr-6 mb-6 h-14"
+                className="h-[10vh] ml-4"
                 src="https://static.wixstatic.com/media/f1c650_027515148725478cbb3a91eca452cabf~mv2.png/v1/fill/w_81,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/EARTH.png"
                 alt=""
               />
 
-              <h1 className="font-[anzo4] text-[5vw]">
-                DEVELOPMENT <span className="font-[anzo3] text-xl">02</span>
+              <h1 className="font-[anzo4] text-[8vw] xl:text-[4vw]">
+                DEVELOPMENT <span className="font-[anzo3] text-[4vw] xl:text-[2vw] ">02</span>
               </h1>
             </div>
           </div>
-
-          <div></div>
         </div>
         <div
           id="description"
-          className="lg:w-1/3 xl:text-[1.1vw] flex items-center justify-center text-white px-16 font-[anzo3] lg:text-xl text-sm "
+          className=" xl:w-[40vw] flex h-[40vh] sm:h-[25vh] md:h-[25vh]  justify-center text-white p-16 font-[anzo3] text-sm xl:text-2xl "
         >
           <div>
             <h3>
-              My mission is to drive exceptional growth for my clients by
+              My mission is to drive growth for my clients by
               increasing their brand appearance, defining their identity, and
-              engaging customers through modern, luxurious, and minimalistic touch.
+              engaging customers through modern, luxurious, and minimalistic
+              touch.
             </h3>
-            <div className="flex items-center justify-start mt-8 ">
+            <div className="flex items-center justify-between  pt-8 ">
               <img
-                className="mr-6 mb-6 h-14"
+                className="h-[10vh] ml-4"
                 src="https://static.wixstatic.com/media/f1c650_b0000fd9a706421aa0ea84da62ae3354~mv2.png/v1/fill/w_81,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/START%20UP.png"
                 alt=""
               />
 
-              <h1 className="font-[anzo4] text-[5vw]">
-                BRANDING <span className="font-[anzo3] text-xl">03</span>
+              <h1 className="font-[anzo4] text-[8vw] xl:text-[4vw]">
+                BRANDING <span className="font-[anzo3] text-[4vw] xl:text-[2vw]">03</span>
               </h1>
             </div>
           </div>
-
-          <div></div>
         </div>
       </div>
-      <div className="text-gray-400 absolute xl:text-[1.2vw] xl:ml-6 bottom-10 ml-4 text-sm lg:text-xl md:text-lg">
+      <div className="text-gray-400 xl:text-[1.5vw] absolute  bottom-0 p-10 xl:p-10">
         <h1>GOT A PROJECT?</h1>
         <h1>
           THEN PLEASE{" "}
