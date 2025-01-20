@@ -11,7 +11,7 @@ const Page4 = () => {
 
 
       <div className='absolute bottom-6 '>
-        <div className='w-[80vw] ml-8 xl:p-10'>
+        <div className='w-[80vw] ml-10 xl:p-10'>
             <h2 className='text-white  xl:text-lg lg:text-lg text-sm font-[anzo1]'>I DESIGN AND DEVELOP </h2>
             <h3 className=' lg:text-lg  xl:text-lg  font-[anzo2] text-sm text-gray-400'>MODERN, IMPACTFUL AND LUXURIOUS</h3>
             <h2 className='text-white  xl:text-lg  lg:text-lg uppercase text-sm font-[anzo1]'>websites that seamlessly bridge your goals with needs of your clients.</h2>
