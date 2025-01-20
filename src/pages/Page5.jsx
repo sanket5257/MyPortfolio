@@ -31,7 +31,7 @@ useGSAP(function(){
 
 
   return (
-    <div id='section2' className='bg-white text-center p-10 text-black'>
+    <div id='section2' className=  'xl:p-20 bg-white text-center p-10 text-black'>
       {/* <h3 className='text-gray-500 text-xl font-[anzo2]'>©  ft.leo.studio 2024 | designed and developed</h3> */}
     
     <div id='' className='rotateText2 mt-16 '>

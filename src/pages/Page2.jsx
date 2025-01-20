@@ -24,7 +24,7 @@ const Page2 = () => {
   });
 
   return (
-    <div id="section2" className="bg-white text-center lg:p-10 text-black">
+    <div id="section2" className="bg-white text-center top-10 xl:p-20 text-black">
       <h3 className="text-gray-500 text-xl font-[anzo2]">
         © ft.leo.studio 2024 | designed and developed
       </h3>
