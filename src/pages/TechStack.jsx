@@ -26,7 +26,7 @@ function TechStack() {
   return (
     <div
       id="TechStack"
-      className=" w-full text-black dark:bg-slate-900 dark:text-white p-8 lg:p-20 flex flex-col items-center justify-center"
+      className=" w-full text-black bg-white p-8 lg:p-20 flex flex-col items-center justify-center"
     >
       <h1 className="text-[18vw] xl:text-[18vw] font-semibold mb-12 leading-normal uppercase text-gray-500 font-[anzo4]">
         Tech Stack
@@ -35,7 +35,7 @@ function TechStack() {
         {techStackImages.map((image, index) => (
           <div
             key={index}
-            className="flex items-center justify-center bg-white dark:bg-fuchsia-800 p-6 rounded-xl border-3 border-black shadow-lg transform transition-all animate-bounce tech-image"
+            className="flex items-center justify-center bg-white  p-6 rounded-xl border-3 border-black shadow-lg transform transition-all animate-bounce tech-image"
           >
             <img
               className="h-24 md:h-28 lg:h-36"
