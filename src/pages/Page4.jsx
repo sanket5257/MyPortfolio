@@ -2,22 +2,24 @@ import React from 'react'
 
 const Page4 = () => {
   return (
-    <div className='h-screen  bg-white p-4 relative '>
+    <div className='h-screen w-full  bg-white p-4 relative '>
     <div className='h-full w-full  overflow-hidden bg-black rounded-[4.9vh] '>
       <video autoPlay muted loop playsInline className='pointer-events-none w-full object-cover h-[100vh]' src="https://video.wixstatic.com/video/11062b_47e99a65fe474b159516ea5aea634f53/480p/mp4/file.mp4"></video>
-      <h1 className="absolute px-10 md:-top-[0vh] top-[3vh] font-[anzo4] uppercase lg:text-[17vw] text-[30vw] md:text-[24vw] text-gray-400 xl:text-[15vw]">WHAT</h1>
+        <div className='absolute xl:h-[60vh] xl:pl-10 pl-5 xl:w-[30vw] xl:top-0 top-10'>
+         <h1 className="font-[anzo4] uppercase text-gray-400 xl:text-[18vw] text-[25vw]">WHAT</h1>
 
-      <h1  className="absolute px-10 lg:top-[31vh] top-[19vh] md:top-[30vh] sm:top-[28vh] font-[anzo4] uppercase text-[27vw] lg:text-[17vw]  md:text-[24vw] xl:text-[15vw] xl:top-48  text-white">I DO</h1>
+         <h1  className=" font-[anzo4] xl:leading-6 leading-6 uppercase  xl:text-[18vw] text-[25vw] text-white">I DO</h1>
 
 
-      <div className='absolute bottom-6 '>
-        <div className='w-[80vw] ml-10 xl:p-10'>
-            <h2 className='text-white  xl:text-lg lg:text-lg text-sm font-[anzo1]'>I DESIGN AND DEVELOP </h2>
-            <h3 className=' lg:text-lg  xl:text-lg  font-[anzo2] text-sm text-gray-400'>MODERN, IMPACTFUL AND LUXURIOUS</h3>
-            <h2 className='text-white  xl:text-lg  lg:text-lg uppercase text-sm font-[anzo1]'>websites that seamlessly bridge your goals with needs of your clients.</h2>
+        </div>
+      <div className=' xl:text-[1.5vw] lg:text-[1.5vw] md:text-[2vw]  p-4 text-[3vw] absolute xl:w-[97vw] w-[90vw]   xl:bottom-12 bottom-10 xl:flex xl:justify-center flex flex-col flex-wrap justify-center items-center xl:items-center '>
+        
+            <h2 className='text-white   font-[anzo1]'>I DESIGN AND DEVELOP </h2>
+            <h3 className='   font-[anzo2]  text-gray-400'>MODERN, IMPACTFUL AND LUXURIOUS</h3>
+            <h2 className='text-white uppercase font-[anzo1]'>websites that seamlessly bridge your goals with needs of your clients.</h2>
 
            
-        </div>
+        
 
         
     </div>
