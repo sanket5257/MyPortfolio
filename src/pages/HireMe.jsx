@@ -26,7 +26,7 @@ const HireMe = () => {
 
       
       </div>
-      <div id='contact' className='absolute flex justify-between items-center h-screen w-[90vw] lg:w-[30vw] top-0 left-14 md:left-[24vw] sm:left-[20vw] lg:left-[45vw]'>
+      <div id='contact' className='absolute  flex justify-between items-center h-screen w-[90vw] lg:w-[30vw] top-0 left-14 md:left-[24vw] sm:left-[20vw] lg:left-[45vw]'>
         <img  id='rotateImage' className='h-20 lg:h-32' src="https://static.wixstatic.com/media/f1c650_7a84fb38cb2d4bebb8b34004f66d4c3d~mv2.png/v1/fill/w_128,h_128,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/World%20Contact.png" alt="" />
         <div  className="text-gray-400 absolute ml-[24vw] lg:ml-[14vw] text-[3vw] lg:text-xl ">
         <div> 
