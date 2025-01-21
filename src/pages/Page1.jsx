@@ -37,7 +37,10 @@ useGSAP(function(){
     <div id='page1' onMouseMove={(e)=>{
       mouseMoving(e)
     }} className='h-screen relative bg-white p-4 '>
-      <div id='page1-in'  className='shadow-xl relative p-2 lg:p-10 shadow-gray-700 h-full w-full bg-cover bg-no-repeat bg-[url(https://wallpapercave.com/wp/wp2739203.jpg)] rounded-[5vh]'>
+      <div id='page1-in'  className='shadow-xl relative overflow-hidden shadow-gray-700 h-full w-full  rounded-[5vh]'>
+
+      <video autoPlay muted loop playsInline className='absolute pointer-events-none w-full object-cover h-full' src="./startrobo.mp4"></video>
+
       <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" />
 
       <TiltText abc={tiltRef}/>

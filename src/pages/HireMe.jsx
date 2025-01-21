@@ -17,7 +17,7 @@ const HireMe = () => {
     <div id="HireMe" className=" h-screen relative bg-white p-2 ">
       <div
         id="page1-in"
-        className=" shadow-xl relative  p-2 shadow-gray-700 h-full w-[95vw] bg-cover bg-[url(https://static.wixstatic.com/media/f1c650_1baf8f9dcad444669565ec73ee697a92~mv2.jpg/v1/fill/w_1854,h_1005,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Background%20Anzo_Studio.jpg)] rounded-[50px]"
+        className=" shadow-xl relative  p-2 shadow-gray-700 h-full xl:w-full w-[95vw] bg-cover bg-[url(https://static.wixstatic.com/media/f1c650_1baf8f9dcad444669565ec73ee697a92~mv2.jpg/v1/fill/w_1854,h_1005,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Background%20Anzo_Studio.jpg)] rounded-[50px]"
       >
         <div className="GotanIdea h-[40vh] ">
           <h1 className=" font-[anzo4] uppercase text-[25vw] xl:text-[18vw]  text-gray-400">

@@ -20,7 +20,7 @@ const App = () => {
     <Page5/>
     <Page6/>
     <Page7/>
-    <HireMe/>
+    {/* <HireMe/> */}
     
 
 
