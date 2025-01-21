@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 // import TiltText from '../components/TiltText'
 import Page1Bottom from '../components/Page1Bottom'
 import { useGSAP } from '@gsap/react'
@@ -33,13 +33,19 @@ useGSAP(function(){
   })
 },[xVal,yVal])
 
+
+//audio
+
+
+
   return (
     <div id='page1' onMouseMove={(e)=>{
       mouseMoving(e)
     }} className='h-screen relative bg-white p-4 '>
       <div id='page1-in'  className='shadow-xl relative overflow-hidden shadow-gray-700 h-full w-full  rounded-[5vh]'>
 
-      <video autoPlay muted loop playsInline className='absolute pointer-events-none w-full object-cover h-full' src="./startrobo.mp4"></video>
+      <video autoPlay muted loop playsInline className='absolute pointer-events-none w-full object-cover h-full' src="./startrobo.mp4"> </video>
+      
 
       <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" />
 
