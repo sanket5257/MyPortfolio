@@ -16,18 +16,21 @@ const HireMe = () => {
 
       gsap.registerPlugin(ScrollTrigger);
 
-      gsap.from("#swipein",{
-        opacity:0,
-        x:100,
-        duration:1,
-        delay:2,
-        stagger:0.01,
-        scrollTrigger:{
-          trigger:"#HireMe",
-          scrub:1
-        }
+      // gsap.from("#swipein",{
+      //   opacity:0,
+        
+      //   duration:1,
+      //   delay:3,
+      //   stagger:1,
+      //   ease:"power4.out",
+      //   scrollTrigger:{
+      //     trigger:"#HireMe",
+      //     scrub:5,
+      //     markers:true,
+          
+      //   }
 
-      })
+      // })
 
       
 
