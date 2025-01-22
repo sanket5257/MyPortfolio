@@ -26,10 +26,14 @@ setYVal(-(e.clientY - tiltRef.current.getBoundingClientRect().y - tiltRef.curren
 }
 
 useGSAP(function(){
-  gsap.to(tiltRef.current,{
+  gsap.from(tiltRef.current,{
     transform: `rotateX(${yVal}deg) rotateY(${xVal}deg)`,
+    opacity:0,
+    delay:3,
     duration: 2,
-    ease:'power4.out'
+    ease:'power4.out',
+    stagger:3
+    
   })
 },[xVal,yVal])
 

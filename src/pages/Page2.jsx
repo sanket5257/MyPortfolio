@@ -21,15 +21,37 @@ const Page2 = () => {
         },
       });
     }
+
+    else{
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap.from(".rotateText",{
+            y:80,
+            opacity:0,
+            duration:1,
+            stagger:2,
+            ease:"power0.out",
+            scrollTrigger:{
+              trigger:".rotateText",
+              scrub:5,
+              
+            }
+
+
+      })
+
+
+
+    }
   });
 
   return (
-    <div id="section2" className="bg-white text-center top-10 xl:p-20 text-black">
+    <div  className="bg-white text-center top-10 xl:p-20 text-black">
       <h3 className="text-gray-500 text-xl font-[anzo2]">
         © ft.leo.studio 2024 | designed and developed
       </h3>
 
-      <div className="rotateText mt-16">
+      <div id="section2" className="rotateText mt-16">
         <h1 className="lg:text-[40vw] text-[40vw] text-black font-[anzo4] leading-[20vw] lg:leading-[35vw]">
           IMPACTFUL
         </h1>

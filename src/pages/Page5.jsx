@@ -26,7 +26,27 @@ useGSAP(function(){
   
       }
     })
-  }else{}
+  }else{
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".rotateText2",{
+          y:80,
+          opacity:0,
+          duration:1,
+          stagger:2,
+          ease:"power1.out",
+          scrollTrigger:{
+            trigger:".rotateText2",
+            scrub:5,
+            
+          }
+
+
+    })
+
+
+
+  }
 })
 
 

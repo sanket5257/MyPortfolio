@@ -1,6 +1,48 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap/all";
 import React from "react";
 
 const Page6Bottom = () => {
+
+      useGSAP(function(){
+
+gsap.to("#sun",{
+    rotation:360,
+    duration: 4,
+    repeat: -1,
+    ease:"none"
+
+
+
+})
+
+gsap.to("#circle",{
+      rotateY:360,
+      duration: 4,
+      repeat: -1,
+      ease:"none"
+
+
+
+})
+
+gsap.from("#rocket",{
+      y:20,
+      duration:1,
+      repeat: -1,
+      ease:"power0.out",
+      
+
+
+})
+
+
+      })
+
+
+
+
+
   return (
     <div>
       <div className="absolute top-[65vh]  flex flex-col xl:flex xl:flex-row xl:items-center xl:w-[98vw] xl:h-[80vh] xl:top-[60vh] sm:top-[85vh] md:top-[110vh] lg:top-[140vh]  ">
@@ -15,7 +57,7 @@ const Page6Bottom = () => {
               professionals, entrepreneurs, artists, and boutique businesses. ​
             </h3>
             <div className="flex items-center justify-between  pt-8  ">
-              <img
+              <img id="sun"
                 className="h-[10vh] ml-4"
                 src="https://static.wixstatic.com/media/f1c650_67833facdc7a47d5aae7870d4fb7fc3e~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SUN.png"
                 alt=""
@@ -38,7 +80,7 @@ const Page6Bottom = () => {
               resources spent on macro and micro-management, marketing research.
             </h3>
             <div className="flex items-center justify-between  pt-8 ">
-              <img
+              <img id="circle"
                 className="h-[10vh] ml-4"
                 src="https://static.wixstatic.com/media/f1c650_027515148725478cbb3a91eca452cabf~mv2.png/v1/fill/w_81,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/EARTH.png"
                 alt=""
@@ -62,7 +104,7 @@ const Page6Bottom = () => {
               touch.
             </h3>
             <div className="flex items-center justify-between  pt-8 ">
-              <img
+              <img id="rocket"
                 className="h-[10vh] ml-4"
                 src="https://static.wixstatic.com/media/f1c650_b0000fd9a706421aa0ea84da62ae3354~mv2.png/v1/fill/w_81,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/START%20UP.png"
                 alt=""
