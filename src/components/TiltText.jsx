@@ -41,7 +41,7 @@ const MyComponent = (props) => {
       gsap.fromTo(
         tiltDivRef.current, // Ensure this is the correct ref (from props.abc)
         { opacity: 0, y: 50 },
-        { opacity: 1, y: 0, duration: 1.5, ease: 'power3.out' }
+        { opacity: 1, y: 0,delay:3,  duration: 1.5, ease: 'power3.out' }
       );
 
       // Animate the text elements with stagger effect
@@ -49,6 +49,7 @@ const MyComponent = (props) => {
         '.animate-text',
         { opacity: 0, y: 50 },
         {
+          delay:3,
           opacity: 1,
           y: 0,
           duration: 2.5,
