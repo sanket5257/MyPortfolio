@@ -39,7 +39,7 @@ gsap.from("#rocket",{
   gsap.registerPlugin(ScrollTrigger);
  var tl=gsap.timeline();
 
-  tl.from("h3",{
+  tl.from("#page6 h3",{
       color:"gray",
       opacity:0,
       duration:3,
@@ -70,7 +70,7 @@ gsap.from("#rocket",{
 
 
   return (
-    <div>
+    <div id="page6">
       <div id="first" className="absolute top-[65vh]  flex flex-col xl:flex xl:flex-row xl:items-center xl:w-[98vw] xl:h-[80vh] xl:top-[60vh] sm:top-[85vh] md:top-[110vh] lg:top-[140vh]  ">
         <div
           id="description"

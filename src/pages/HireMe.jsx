@@ -44,7 +44,7 @@ const HireMe = () => {
         id="page1-in"
         className=" shadow-xl relative  p-2 shadow-gray-700 h-full xl:w-full w-[95vw] bg-cover bg-[url(https://static.wixstatic.com/media/f1c650_1baf8f9dcad444669565ec73ee697a92~mv2.jpg/v1/fill/w_1854,h_1005,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Background%20Anzo_Studio.jpg)] rounded-[50px]"
       >
-        <div className="GotanIdea h-[40vh] ">
+        <div className="GotanIdea h-[40vh]  ">
           <h1 className=" font-[anzo4] uppercase text-[25vw] xl:text-[18vw]  text-gray-400">
             GOT AN
           </h1>
@@ -75,19 +75,20 @@ const HireMe = () => {
         </div>
 
 
-        {/* <div className="footer text-white ">
-          <h1>IT IS NOT JUST ABOUT SOLVING THE PROBLEM</h1>
-          <h1>
-            BUT
-            <span className="text-white font-[anzo1]">
-              OFFERING THE TRANSFORMATION!
+      </div>
+      <div className="  footer absolute p-10 bottom-0 text-gray-400 xl:text-[1.3vw] ">
+          <h1 className="hidden">IT IS NOT JUST ABOUT SOLVING THE PROBLEM</h1>
+          <h1 className="hidden">
+            BUT&nbsp;  
+              <span className="text-white font-[anzo1]">
+                OFFERING THE TRANSFORMATION!
             </span>
           </h1>
           <h1 className="">
             @2025ft.leostudio
           </h1>
-        </div> */}
-      </div>
+        </div>
+
     </div>
   );
 };
