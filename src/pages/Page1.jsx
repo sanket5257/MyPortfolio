@@ -43,9 +43,9 @@ useGSAP(function(){
     <div id='page1' onMouseMove={(e)=>{
       mouseMoving(e)
     }} className='h-screen relative bg-white p-4 '>
-      <div id='page1-in'  className='shadow-xl relative overflow-hidden shadow-gray-700 h-full w-full  rounded-[5vh]'>
+      <div id='page1-in'  className='shadow-xl relative overflow-hidden bg-black shadow-gray-700 h-full w-full  rounded-[5vh]'>
 
-      <video autoPlay muted loop playsInline className='absolute pointer-events-none w-full object-cover h-full' src="./startrobo.mp4"> </video>
+      <video autoPlay muted loop playsInline className='absolute  h-[60vh] xl:h-[90vh] lg:h-[90vh] sm:h-[90vh] pointer-events-none  object-cover' src="./startrobo.mp4"> </video>
       
 
       <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" />

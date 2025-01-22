@@ -42,7 +42,7 @@ const App = () => {
           <Header />
           <Page1 />
           <Page2 />
-          <TechStack />
+          {/* <TechStack /> */}
           <Page4 />
           <Page5 />
           <Page6 />

@@ -64,7 +64,7 @@ const MyComponent = (props) => {
     <div
       id="tiltDiv"
       ref={props.abc} // Preserve your original `ref` here
-      className="text-white ml-8 mt-[25vh] animate-text"
+      className="text-white xl:ml-10 ml-16 mt-[25vh] animate-text"
     >
       <h1 className="text-[6vw] lg:text-[4.2vw] leading-[4vw] lg:leading-[4vw] font-[anzo]">
         HI, I'M <span className=" text-slate-400">CREATIVE </span>

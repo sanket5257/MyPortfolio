@@ -1,5 +1,5 @@
 import { useGSAP } from "@gsap/react";
-import gsap from "gsap/all";
+import gsap, { ScrollTrigger } from "gsap/all";
 import React from "react";
 
 const Page6Bottom = () => {
@@ -31,10 +31,36 @@ gsap.from("#rocket",{
       duration:1,
       repeat: -1,
       ease:"power0.out",
+      yoyo:true
       
 
 
 })
+  gsap.registerPlugin(ScrollTrigger);
+ var tl=gsap.timeline();
+
+  tl.from("h3",{
+      color:"gray",
+      opacity:0,
+      duration:3,
+      delay:1,
+      ease:"power0.out",
+      stagger:3,
+      ease:"power0.out",
+
+      scrollTrigger:{
+        trigger:"#first",
+        start:"top 65%",
+        end:"top 80%",
+        
+        // markers:true,
+          // yoyo:true,
+        scrub:5
+      }
+      
+
+  })
+
 
 
       })
@@ -45,13 +71,13 @@ gsap.from("#rocket",{
 
   return (
     <div>
-      <div className="absolute top-[65vh]  flex flex-col xl:flex xl:flex-row xl:items-center xl:w-[98vw] xl:h-[80vh] xl:top-[60vh] sm:top-[85vh] md:top-[110vh] lg:top-[140vh]  ">
+      <div id="first" className="absolute top-[65vh]  flex flex-col xl:flex xl:flex-row xl:items-center xl:w-[98vw] xl:h-[80vh] xl:top-[60vh] sm:top-[85vh] md:top-[110vh] lg:top-[140vh]  ">
         <div
           id="description"
           className="xl:w-[40vw] flex h-[40vh] sm:h-[25vh] md:h-[25vh]  justify-center text-white p-16 font-[anzo3] text-sm xl:text-2xl "
         >
           <div>
-            <h3>
+            <h3 >
               I am a self-taught web and brand designer with a passion for
               creating unique and timeless masterpieces for ambitious
               professionals, entrepreneurs, artists, and boutique businesses. ​
@@ -63,8 +89,8 @@ gsap.from("#rocket",{
                 alt=""
               />
 
-              <h1 className="font-[anzo4] text-[8vw] xl:text-[5vw]">
-                DESIGN <span className="font-[anzo3] text-[4vw] xl:text-[2vw] ">01</span>
+              <h1 className="font-[anzo4] text-[8vw] text-white xl:text-[5vw]">
+                DESIGN <span className="font-[anzo3] text-white text-[4vw] xl:text-[2vw] ">01</span>
               </h1>
             </div>
           </div>
@@ -86,7 +112,7 @@ gsap.from("#rocket",{
                 alt=""
               />
 
-              <h1 className="font-[anzo4] text-[8vw] xl:text-[4vw]">
+              <h1 className="font-[anzo4] text-white text-[8vw] xl:text-[4vw]">
                 DEVELOPMENT <span className="font-[anzo3] text-[4vw] xl:text-[2vw] ">02</span>
               </h1>
             </div>
@@ -110,7 +136,7 @@ gsap.from("#rocket",{
                 alt=""
               />
 
-              <h1 className="font-[anzo4] text-[8vw] xl:text-[4vw]">
+              <h1 className="font-[anzo4] text-white text-[8vw] xl:text-[4vw]">
                 BRANDING <span className="font-[anzo3] text-[4vw] xl:text-[2vw]">03</span>
               </h1>
             </div>
