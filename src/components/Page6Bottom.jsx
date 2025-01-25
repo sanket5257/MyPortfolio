@@ -46,7 +46,7 @@ gsap.from("#rocket",{
       delay:1,
       ease:"power0.out",
       stagger:3,
-      ease:"power0.out",
+      
 
       scrollTrigger:{
         trigger:"#first",

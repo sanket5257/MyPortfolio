@@ -35,20 +35,45 @@ useGSAP(function(){
 },[xVal,yVal])
 
 
-//audio
+const [currentIndex, setCurrentIndex] = useState(1);
+const [hasClicked, setHasClicked] = useState(false);
+const [loading, setLoding] = useState(true);
+const [loadedVideos, setLoadedVideos] = useState(0);
 
 
+const totalVideos=4;
+
+const nextVideoRef = useRef(null);
+const handleVideoLoad=()=>{
+  setLoadedVideos((prevLoadedVideos)=>prevLoadedVideos+1);
+}
+const handleVidClick=()=>{
+setHasClicked(true)
+setCurrentIndex((prevIndex)=>prevIndex+1);
+}
+
+
+
+
+const getVideoSrc=(Index)=>`videos/hero-${Index}.mp4`;
 
   return (
     <div id='page1' onMouseMove={(e)=>{
       mouseMoving(e)
-    }} className='h-screen relative bg-white p-4 '>
-      <div id='page1-in'  className='shadow-xl relative overflow-hidden bg-black shadow-gray-700 h-full w-full  rounded-[5vh]'>
+    }} className='h-dvh relative overflow-x-hidden bg-white p-4  '>
+      <div id='video-frame'  className='shadow-xl relative overflow-hidden bg-black shadow-gray-700 h-full w-full  rounded-[5vh]'>
 
-      <video autoPlay muted loop playsInline className='absolute  h-[60vh] xl:h-[90vh] lg:h-[90vh] sm:h-[90vh] pointer-events-none  object-cover' src="./startrobo.mp4"> </video>
+      <video autoPlay muted loop playsInline className='absolute h-full w-full  pointer-events-none  object-cover' src="./startrobo.mp4"> </video>
       
 
       <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" />
+
+          <div className=' absolute size-64 cursor-pointer  top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] '>
+            <div onClick={handleVidClick} className=' scale-50 origin-center opacity-0 transition-all duration-500 ease-in hover:opacity-100  hover:scale-100 '>
+              <video loop autoPlay muted playsInline ref={nextVideoRef} className='pointer-events-none size-64 origin-center scale-150 object-cover object-center   '  src={getVideoSrc(currentIndex+1)}></video>
+            </div>
+          </div>
+
 
       <TiltText abc={tiltRef}/>
         <Page1Bottom/>
