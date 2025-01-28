@@ -17,7 +17,7 @@ useGSAP(function(){
     <div className='absolute bottom-0 p-10 flex items-end justify-between left-0 w-full '>
         <div className=''>
             <h2 className='texr-sm text-white lg:text-2xl font-[anzo1]'>DESIGNER | &#10092; CODER &#10093; </h2>
-            <h3 className=' text-sm lg:text-2xl font-[anzo2] text-white'>SANKET CHOUGULE</h3>
+            <h3 className=' text-lg lg:text-2xl font-[anzo2] text-white'>SANKET CHOUGULE</h3>
            
         </div>
 
