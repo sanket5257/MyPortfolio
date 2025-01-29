@@ -48,7 +48,7 @@ const Page2 = () => {
   return (
     <div  className="bg-white text-center top-10 xl:p-20 text-black">
       <h3 className="text-gray-500 text-xl font-[anzo2]">
-        © ft.leo.studio 2024 | designed and developed
+        © ft.leo.studio 2025 | designed and developed
       </h3>
 
       <div id="section2" className="rotateText mt-16">
