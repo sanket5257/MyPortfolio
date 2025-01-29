@@ -48,7 +48,7 @@ useGSAP(function(){
     }} className='h-dvh relative overflow-x-hidden bg-white p-4  '>
       <div id='video-frame'  className='shadow-xl relative overflow-hidden bg-black shadow-gray-700 h-full w-full  rounded-[5vh]'>
 
-      <video autoPlay muted loop playsInline className='absolute h-full w-full  pointer-events-none  object-cover' src="./startrobo.mp4"> </video>
+      <video autoPlay muted loop playsInline onLoadedData={tiltRef} className='absolute h-full w-full  pointer-events-none  object-cover' src="./startrobo.mp4"> </video>
       
 
       <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" />

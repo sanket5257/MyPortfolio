@@ -5,11 +5,10 @@ import Page2 from './pages/Page2';
 import Page4 from './pages/Page4';
 import Page5 from './pages/Page5';
 import Page6 from './pages/Page6';
-import Page7 from './pages/Page7';
-import HireMe from './pages/HireMe';
-import TechStack from './pages/TechStack';
-import { BallTriangle } from 'react-loader-spinner';
-import Skills from './pages/Skills';
+import About from './pages/About';
+
+
+
 
 const App = () => {
   // loading animation
@@ -22,11 +21,11 @@ const App = () => {
           <Header />
           <Page1 />
           <Page2 />
-          {/* <Skills/> */}
           <Page4 />
           <Page5 />
           <Page6 />
-          <HireMe />
+          <About/>
+       
         </>
       
     

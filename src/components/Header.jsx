@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/all"; // Import ScrollToPlugin
-
-// import clsx from "clsx";
+import 'remixicon/fonts/remixicon.css'
 gsap.registerPlugin(ScrollToPlugin);
 
 const Header = () => {
