@@ -22,11 +22,10 @@ const App = () => {
           <Header />
           <Page1 />
           <Page2 />
-          <Skills/>
+          {/* <Skills/> */}
           <Page4 />
           <Page5 />
           <Page6 />
-          {/* <Page7 /> */}
           <HireMe />
         </>
       

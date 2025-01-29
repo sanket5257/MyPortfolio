@@ -67,7 +67,7 @@ const MyComponent = (props) => {
       className="text-white  xl:ml-6 ml-10 mt-[25vh] animate-text"
     >
       <h1 className="text-[6vw] lg:text-[4.2vw] leading-[4vw] lg:leading-[4vw] font-[anzo]">
-        HI, I'M <span className=" text-white">CREATIVE </span>
+        HI, I'M <span className=" text-gray-400">CREATIVE </span>
       </h1>
       <h1 className="font-[anzo] lg:text-[8vw] leading-[11vw] lg:leading-[7vw] text-[10vw] animate-text">
         DEVELOPER

@@ -2,6 +2,10 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
 import "remixicon/fonts/remixicon.css";
+import { SiGreensock } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { SiMongodb } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
 
 const Skills = () => {
   //
@@ -47,7 +51,7 @@ const Skills = () => {
           <div className="font-[anzo2] ">
             <div id="title" className="bg-white h-10 w-full">
               <h1  className="text-black text-center pt-2 cursor-pointer">
-                Languages
+                Frameworks
               </h1>
             </div>
             <div id="languages" className="flex justify-center items-center">
@@ -72,47 +76,39 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="font-[anzo2] ">
-            <div id="title" className="bg-white h-10 w-full">
+          <div className="font-[anzo2]  ">
+            <div id="title" className="bg-white  h-10 w-full">
               <h1  className="text-black text-center pt-2 cursor-pointer">
-                Languages
+                Database
               </h1>
             </div>
-            <div id="languages" className="flex justify-center items-center">
-              <div id="html" className="p-5">
-                <i className="ri-html5-line text-3xl"></i>
-                <h3 className="text-sm text-center">HTML5</h3>
+            <div id="Databases" className="flex justify-center  items-center">
+              <div id="html" className="p-5 ">
+                <i className=" text-3xl"><GrMysql /></i>
+                <h3 className="text-sm text-center">MySQL</h3>
               </div>
 
-              <div id="css" className="p-5">
-                <i className="ri-css3-fill text-3xl"></i>
-                <h3 className="text-sm text-center">CSS</h3>
+              <div id="css" className="p-5 ">
+                <i className="text-3xl"><DiMongodb /></i>
+                <h3 className="text-sm text-center">MONGODB</h3>
               </div>
 
-              <div id="javascript" className="p-5">
-                <i className="ri-javascript-line text-3xl"></i>
-                <h3 className="text-sm text-center">JS</h3>
-              </div>
-
-              <div id="java" className="p-5">
-                <i className="ri-java-line text-3xl"></i>
-                <h3 className="text-sm text-center">JAVA</h3>
-              </div>
+             
             </div>
           </div>
           <div className="font-[anzo2] ">
             <div id="title" className="bg-white h-10 w-full">
               <h1  className="text-black text-center pt-2 cursor-pointer">
-                Languages
+                Animation libraries
               </h1>
             </div>
             <div id="languages" className="flex justify-center items-center">
               <div id="html" className="p-5">
-                <i className="ri-html5-line text-3xl"></i>
-                <h3 className="text-sm text-center">HTML5</h3>
+                <i className=" text-3xl"><SiGreensock /></i>
+                <h3 className="text-sm text-center">GSAP</h3>
               </div>
 
-              <div id="css" className="p-5">
+              {/* <div id="css" className="p-5">
                 <i className="ri-css3-fill text-3xl"></i>
                 <h3 className="text-sm text-center">CSS</h3>
               </div>
@@ -125,7 +121,7 @@ const Skills = () => {
               <div id="java" className="p-5">
                 <i className="ri-java-line text-3xl"></i>
                 <h3 className="text-sm text-center">JAVA</h3>
-              </div>
+              </div> */}
             </div>
           </div>
 
