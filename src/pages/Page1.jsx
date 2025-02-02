@@ -45,7 +45,7 @@ useGSAP(function(){
   return (
     <div id='page1' onMouseMove={(e)=>{
       mouseMoving(e)
-    }} className='h-dvh relative overflow-x-hidden bg-white p-4  '>
+    }} className='h-screen relative overflow-x-hidden bg-white p-4  '>
       <div id='video-frame'  className='shadow-xl relative overflow-hidden bg-black shadow-gray-700 h-full w-full  rounded-[5vh]'>
 
       <video autoPlay muted loop playsInline onLoadedData={tiltRef} className='absolute h-full w-full  pointer-events-none  object-cover' src="./startrobo.mp4"> </video>
