@@ -1,110 +1,68 @@
-import { useGSAP } from '@gsap/react';
-import gsap from 'gsap';
-import React from 'react'
-import { MdOutlineArrowOutward } from "react-icons/md";
-
+import React from "react";
+import { GrLinkedinOption } from "react-icons/gr";
+import { FaWhatsapp } from "react-icons/fa";
 const HireMe = () => {
-
-// useGSAP(function(){
-//   gsap.to("#upperpart",{
-//   x:500,
-//   duration:4,
-//   repeat:-1,
-//   ease:"power1.inOut",
-//   yoyo:true
-//  })
-//  gsap.to("#midpart",{
-//   x:-500,
-//   duration:4,
-//   repeat:-1,
-//   ease:"power1.inOut",
-//   yoyo:true
-//  })
-//  gsap.to("#mid2part",{
-//   x:1000,
-//   duration:4,
-//   repeat:-1,
-//   ease:"power1.inOut",
-//   yoyo:true
-//  })
-// })
-
   return (
-    <div className='h-dvh  bg-black w-full overflow-x-hidden ' >
-      
-     
-          <div className='textanimation'>
-          <video autoPlay muted loop playsInline className='pointer-events-none absolute h-full w-full object-cover' src="/hireMebg.mp4"></video>
-
-                    <div className=' px-16 h-full w-full '>
-
-                      <div>
-                      <div id='upperpart' className=' absolute  md:text-xl  text-sm flex-col flex justify-center items-center h-[40vh]'>
-                            <h3 className='text-red-500 font-[anzo6]'>Drop me &nbsp; &nbsp;&nbsp; a line:</h3>
-                          <div className='mr-20 flex gap-2 '>
-                          <MdOutlineArrowOutward  className='text-red-500 text-lg'/>
-                            <h3 className='text-white'>Telegram</h3>
-                            
-                          </div>
-                          <div className='ml-20 flex gap-2'>
-                          <MdOutlineArrowOutward  className='text-red-500 text-lg'/>
-                          <h3 className='text-white'>WhatsApp</h3>
-                          </div>
-                          </div>
-                          </div>
-                          <div>
-                      <div id='midpart' className=' absolute top-32 right-10 md:text-xl  text-sm flex-col flex justify-center items-center h-[40vh]'>
-                            <h3 className='text-red-500 font-[anzo6]'>Social &nbsp; &nbsp;&nbsp; media:</h3>
-                          <div className='mr-20 flex gap-2 '>
-                          <MdOutlineArrowOutward  className='text-red-500 text-lg'/>
-                            <h3 className='text-white'>Instagram</h3>
-                            
-                          </div>
-                          <div className='ml-20 flex gap-2'>
-                          <MdOutlineArrowOutward  className='text-red-500 text-lg'/>
-                          <h3 className='text-white'>Linkedin</h3>
-                          </div>
-                          </div>
-                          </div>
-                          <div>
-                      <div id='mid2part' className=' absolute top-64  md:text-xl  text-sm flex-col flex justify-center items-center h-[40vh]'>
-                            <h3 className='text-red-500 mr-36 font-[anzo6]'>Copy:</h3>
-                          <div className=' flex gap-2 '>
-                          <MdOutlineArrowOutward  className='text-red-500 text-lg'/>
-                            <h3 className='text-white'>chougulesanket30@gmail.com</h3>
-                            
-                          </div>
-                          
-                          </div>
-                          <div className='bottom flex gap-2 bottom-0 '>
-                          <MdOutlineArrowOutward  className='text-red-500 text-lg'/>
-                            <h3 className='text-white'>chougulesanket30@gmail.com</h3>
-                            
-                          </div>
-                            </div>
-                          
-                          
-
-                        </div>
-
-
-
-
+    <div className="h-dvh w-full">
+      <div className="h-full w-full p-4 ">
+        <div className="h-full w-full overflow-hidden rounded-3xl">
+          <div id="desktop-view" className="h-full w-full hidden md:block">
+            <img
+              className=" object-cover h-full w-full "
+              src="/Hiremebg.avif"
+              alt=""
+            />
           </div>
+          <div id="mobile-view" className="h-full w-full  md:invisible">
+            {/* <img className='h-full w-full' src="/whitemask.avif" alt="" /> */}
+            <div
+              id="background"
+              className="h-full w-full overflow-hidden relative"
+            >
+              <img
+                src="https://static.wixstatic.com/media/f1c650_e2b405cf03e845ac9e79ab98decea582~mv2.jpg/v1/fill/w_441,h_541,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/me%201.jpg"
+                alt=""
+              />
+              <div id="content" className="text-black min-h-dvh w-full absolute top-0">
+                <img
+                  className="relative"
+                  src="https://static.wixstatic.com/media/f1c650_95d5864be0b84ba48d6a9a26a8e954be~mv2.png/v1/crop/x_129,y_0,w_1665,h_3640/fill/w_441,h_964,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mask%20group%20(6).png"
+                  alt=""
+                />
 
-          <div className=' absolute flex gap-2 justify-center w-full items-end bottom-0 '>
-                          <MdOutlineArrowOutward  className='text-red-500 text-[4rem] md:text-[6rem]'/>
-                            <h3 className='text-white text-[4rem] md:text-[8rem] font-[anzo]'>Let's talk</h3>
-                            
-                          </div>
-  
-         
-     
+                <div id="text" className="text-[5rem] absolute top-[60vh] pl-4">
+                  <div id="name">
+                  
+                    <h1 className="font-[anzo4] uppercase">sanket</h1>
+                  </div>
+                  <div id="number" className="text-[0.8rem] flex gap-4 font-[anzo3]">
+                    <h1 className="text-gray-400">#</h1>
+                    <h1>+91 12345678</h1>
+                  </div>
+                  <div id="email" className="text-[0.8rem] flex gap-4 font-[anzo3]">
+                    <h1 className="text-gray-400">@</h1>
+                    <h1>chougulesanket30@gmail.com</h1>
+                    
+                  </div>
+                </div>
+              </div>
+                  <div id="bottom-icons" className="text-white absolute top-0 right-0 left-0 bottom-0">
+                  <img
+                className=" relative h-full w-full"
+                src="/blackmask.avif"
+                alt=""
+              />
+                                  <FaWhatsapp className=" absolute bottom-4 right-24 text-xl" />
+                                  <GrLinkedinOption  className=" absolute bottom-4 right-14 text-xl"/>
+
+                  </div>
+              
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  );
+};
 
-      
-    
-  )
-}
-
-export default HireMe
+export default HireMe;

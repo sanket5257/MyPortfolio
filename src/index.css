@@ -41,9 +41,15 @@
     perspective: 3000px;
 }
 
-.rotateText{
-    /* transform-origin: 100% 70%; */
-}
+@layer utilities {
+
+    .clip-path {
+ 
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+ 
+    }
+ 
+ }
 
 #tiltDiv{
     /* background-color: rebeccapurple; */
@@ -61,6 +67,7 @@
     
     
   }
+  
  
  
 

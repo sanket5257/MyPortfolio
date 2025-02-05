@@ -27,7 +27,7 @@ const Header = () => {
  
 
   return (
-    <div className="absolute w-full z-50 p-16 bottom-0 sm:p-12 md:p-16 lg:p-20 flex items-center justify-end">
+    <div className=" fixed w-full z-50 p-16 bottom-0 sm:p-12 md:p-16 lg:p-20 flex items-center justify-end">
       
       
       
