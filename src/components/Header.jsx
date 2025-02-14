@@ -31,7 +31,7 @@ const Header = () => {
       
       
       
-      <Link to='/HireMe' className="bg-black border-4 text-cyan-50 px-6 py-2 sm:px-8 sm:py-3 rounded-full hover:bg-gray-500 transition-all duration-200">
+      <Link to='/HireMe' className=" bg-black border-4 text-cyan-50 px-6 py-2 sm:px-8 sm:py-3 rounded-full hover:bg-gray-500 transition-all duration-200">
         Hire me
       </Link>
     

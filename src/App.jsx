@@ -21,13 +21,14 @@ const App = () => {
     
      
         <>
-          <Header />
+          
 
           <Routes>
 
         <Route path='/HireMe' element={<HireMe/>} />
         <Route path='/' element={
           <div>
+            <Header />
             <Page1 />
           <Page2 />
           <Page4 />
