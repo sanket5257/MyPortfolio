@@ -20,7 +20,7 @@ const HireMe = () => {
      w-full">
       <div
         id="dot"
-        className="z-20 absolute  bg-white size-4 rounded-full"
+        className="z-20 absolute hidden md:block  bg-white size-4 rounded-full"
       ></div>
       <div id="main-content" className="h-screen w-full">
         <div id="getintouch" className="pt-16">
