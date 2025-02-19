@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Page4 = () => {
   return (
@@ -11,7 +12,11 @@ const Page4 = () => {
          <h1  className=" font-[anzo4] leading-8  uppercase   text-white">I DO</h1>
 
 
+
         </div>
+
+        <Link to='/Work' className='bg-white right-10 absolute top-10 px-4 py-1 rounded-full'>Work</Link>
+
       <div className=' bottom-4 xl:text-xl md:text-xl text-sm px-8  absolute    '>
         
             <h2 className='text-white   font-[anzo1]'>I DESIGN AND DEVELOP </h2>

@@ -8,6 +8,7 @@ import Page6 from './pages/Page6';
 import About from './pages/About';
 import HireMe from './pages/HireMe';
 import { Route, Routes } from 'react-router-dom';
+import Work from './pages/Work';
 
 
 
@@ -24,7 +25,7 @@ const App = () => {
           
 
           <Routes>
-
+          <Route path='/Work' element={<Work />} />
         <Route path='/HireMe' element={<HireMe/>} />
         <Route path='/' element={
           <div>
