@@ -88,10 +88,24 @@ const Work = () => {
             </h1>
         </div>
         <div className="marque  translate-x-[58%] text-center">
-      <h1>
+          <h1>
             INTRESTED!!
             </h1>
+            
         </div>
+        <div className="marque  translate-x-[58%] text-center">
+          <h1>
+            INTRESTED!!
+            </h1>
+            
+        </div>
+        <div className="marque  translate-x-[58%] text-center">
+          <h1>
+            INTRESTED!!
+            </h1>
+            
+        </div>
+        
         
       </div>
      

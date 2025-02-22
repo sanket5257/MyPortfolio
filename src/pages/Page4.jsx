@@ -15,7 +15,7 @@ const Page4 = () => {
 
         </div>
 
-        <Link to='/Work' className='bg-white right-10 absolute top-10 px-4 py-1 rounded-full'>Work</Link>
+        <Link to='/Work' className='bg-white right-10 absolute top-10 px-10 py-2 rounded-full'>Work</Link>
 
       <div className=' bottom-4 xl:text-xl md:text-xl text-sm px-8  absolute    '>
         
