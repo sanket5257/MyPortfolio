@@ -20,8 +20,8 @@ const Footer = () => {
         
       });
   return (
-    <div className='bg-black text-white w-full'>
-                    <div id="buttons" className="pt-14  h-[50vh] md:gap-36 w-full flex justify-center items-start md:items-center flex-col md:flex-row">
+    <div className='bg-black text-white w-full pt-20'>
+                    <div id="buttons" className="pt-14 md:pt-0  h-[50vh] md:gap-36 gap-6 w-full flex justify-center items-center md:items-center md:justify-center flex-col md:flex-row">
                     <img
             id="rotateImage"
             className=""
@@ -37,7 +37,7 @@ const Footer = () => {
 
 
           </div>
-          <div id="social" className="">
+          <div id="social" className=" text-center">
           <h1 className="font-[anzo2] text-xl pb-4  ">SOCIAL</h1>
           <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 leading-3 text-gray-500 ">Instagram</h1>
           <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 text-gray-500">Git-hub</h1>
