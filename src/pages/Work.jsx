@@ -59,7 +59,7 @@ const Work = () => {
 
         <h1 className="text-5xl flex items-center h-44 gap-5">PROJECTS <GiThornedArrow /></h1>
       </div>
-      <div id="projects" className=" w-[50%]  text-white font-[anzo3] text-4xl md:text-6xl ">
+      <div id="projects" className=" w-fit  text-white font-[anzo3] text-4xl md:text-6xl ">
         <div  id="card" className=" text-gray-400 hover:text-orange-600">
             <a href="https://zentry-clone-indol.vercel.app/" className="flex items-center"> Zentry-Clone <MdArrowOutward /></a>
         </div>
@@ -71,7 +71,7 @@ const Work = () => {
      
       </div>
 
-      <div id="move" className=" font-[anzo3] mt-10 bg-[#D8FF04] w-full h-[20vh] flex  text-black items-center text-9xl  gap-48 justify-center "  >
+      <div id="move" className=" font-[anzo3] mt-10  w-full h-[20vh] flex  text-white items-center text-9xl  gap-48 justify-center "  >
       <div className="marque  translate-x-[58%] text-center ">
       <h1>
             INTRESTED!!
