@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Page4 = () => {
   return (
-    <div className='h-dvh w-full  bg-white p-4 pt-10  '>
+    <div className='h-screen w-full  bg-white p-4 pt-10  '>
     <div className='relative h-full w-full  overflow-hidden bg-black rounded-3xl '>
       <video autoPlay muted loop playsInline className='pointer-events-none w-full object-cover h-full' src="./man.mp4"></video>
         <div className='absolute top-0 px-8 xl:px-16 text-[30vw] xl:text-[18vw] lg:text-[18vw] '>
