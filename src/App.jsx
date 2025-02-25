@@ -27,6 +27,7 @@ const App = () => {
           <Routes>
           <Route path='/Work' element={<Work />} />
         <Route path='/HireMe' element={<HireMe/>} />
+        
         <Route path='/' element={
           <div>
             <Header />

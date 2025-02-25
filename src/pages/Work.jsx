@@ -1,7 +1,7 @@
 import gsap from "gsap/all";
 import React, { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
-import { GiThornedArrow } from "react-icons/gi";
+import { GoArrowDown } from "react-icons/go";
 import { useGSAP } from "@gsap/react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
@@ -43,18 +43,15 @@ const Work = () => {
 
         <div className="pt-10 font-[anzo2 ] text-2xl text-gray-400 hover:text-orange-600">
           <p>
-            Over the last decade, my expertise has centered around JavaScript,
+            Over the last two years, my expertise has centered around JavaScript,
             encompassing code writing, refactoring, and seamless integration of
-            RESTful APIs with frameworks like Angular, React, and Vue.js. My
-            experience extends beyond, having worked with diverse tech stacks. I
-            stand ready to provide invaluable assistance and guidance to your
-            developers, ensuring they adhere to best practices. Explore my
+            RESTful APIs with framework like React. Explore my
             projects below to witness firsthand the impact of my skills.
           </p>
         </div>
 
-        <h1 className="text-5xl flex items-center h-44 gap-5">
-          PROJECTS <GiThornedArrow />
+        <h1 className="text-5xl flex font-[anzo1] items-center h-44 gap-5">
+          PROJECTS <GoArrowDown />
         </h1>
       </div>
       <div
@@ -73,7 +70,7 @@ const Work = () => {
 
         <div id="card" className="pt-10 text-gray-400 hover:text-orange-600">
           <a
-            href="https://zentry-clone-indol.vercel.app/"
+            href="https://portfolioleo-o.vercel.app/"
             className="flex items-center"
           >
             {" "}
@@ -109,10 +106,7 @@ const Work = () => {
       <div className="flex flex-col md:flex-row pt-20  items-center justify-center gap-10 ">
         <div className="w-full">
           <p className="pt-10 font-[anzo2 ] text-2xl text-gray-400 hover:text-orange-600">
-            Ready to elevate your code base to new heights? Experience the
-            exceptional expertise of a skilled mentor who effortlessly propels
-            projects to the next level. Let’s partner with your needs to
-            maximize your code's potential. Don't miss out on this opportunity!
+          As a student passionate about coding, I am eager to collaborate with you and elevate your projects to new heights. I offer a fresh perspective and the enthusiasm to help optimize and refine your code. Let’s work together to maximize your project’s potential and achieve outstanding results. Don’t miss out on this opportunity to partner with me!
           </p>
         </div>
         <Link to="/HireMe" className="w-full text-center   ">

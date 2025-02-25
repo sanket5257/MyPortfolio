@@ -1,6 +1,7 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap/all';
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     useGSAP(function () {
@@ -30,17 +31,17 @@ const Footer = () => {
           />
           
           
-          <div id="ReachMe" className="">
-          <h1 className="font-[anzo2] text-xl pb-4  ">HOME</h1>
-          <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 leading-3 text-gray-500 ">WORK</h1>
-          <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 text-gray-500">ABOUT</h1>
+          <div id="ReachMe" className="text-center flex-col flex justify-center items-center">
+          <Link to="/" className="font-[anzo2] text-xl pb-4  hover:text-orange-500 text-gray-500  ">HOME</Link>
+          <Link to="/Work" className="font-[anzo2] text-xl pb-4 hover:text-orange-500 leading-3 text-gray-500 ">WORK</Link>
+          <Link to="/HireMe" className="font-[anzo2] text-xl pb-4 hover:text-orange-500 text-gray-500">CONTACT</Link>
 
 
           </div>
-          <div id="social" className=" text-center">
-          <h1 className="font-[anzo2] text-xl pb-4  ">SOCIAL</h1>
-          <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 leading-3 text-gray-500 ">Instagram</h1>
-          <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 text-gray-500">Git-hub</h1>
+          <div id="social" className=" text-center flex flex-col justify-center items-center">
+          <a  className="font-[anzo2] text-xl pb-4  ">SOCIAL</a>
+          <a href='' className="font-[anzo2] text-xl pb-4 hover:text-orange-500 leading-3 text-gray-500 ">Instagram</a>
+          <a href='https://github.com/sanket5257' className="font-[anzo2] text-xl pb-4 hover:text-orange-500 text-gray-500">Git-hub</a>
 
 
           </div>

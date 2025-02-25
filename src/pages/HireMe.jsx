@@ -41,7 +41,7 @@ const HireMe = () => {
           <div id="social" className="">
           <h1 className="font-[anzo2] text-xl pb-4  ">SOCIAL</h1>
           <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 leading-3 text-gray-500 ">Instagram</h1>
-          <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 text-gray-500">Git-hub</h1>
+          <a href="https://github.com/sanket5257" className="font-[anzo2] text-xl pb-4 hover:text-orange-500 text-gray-500">Git-hub</a>
 
 
           </div>

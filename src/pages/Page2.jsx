@@ -28,9 +28,9 @@ const Page2 = () => {
       gsap.from(".rotateText",{
             y:80,
             opacity:0,
-            duration:1,
-            stagger:2,
-            ease:"power0.out",
+            duration:2,
+            stagger:5,
+            ease:"power1.in",
             scrollTrigger:{
               trigger:".rotateText",
               scrub:5,

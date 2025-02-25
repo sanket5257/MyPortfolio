@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap, { ScrollTrigger } from "gsap/all";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Page6Bottom = () => {
 
@@ -147,7 +148,7 @@ gsap.from("#rocket",{
         <h1>GOT A PROJECT?</h1>
         <h1>
           THEN PLEASE{" "}
-          <span className="text-white font-[anzo1]">CONTACT ME</span>{" "}
+          <Link to="/HireMe" className="text-white font-[anzo1]">CONTACT ME</Link>{" "}
         </h1>
       </div>
     </div>
