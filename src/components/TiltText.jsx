@@ -40,23 +40,12 @@ const MyComponent = (props) => {
     if (isMobile) {
       gsap.fromTo(
         tiltDivRef.current, // Ensure this is the correct ref (from props.abc)
-        { opacity: 0, y: 50 },
-        { opacity: 1, y: 0,delay:3,  duration: 1.5, ease: 'power3.out' }
+        { opacity: 0, y: 20 },
+        { opacity: 1, y: 0,delay:1,  duration: 1.5, ease: 'power3.out' }
       );
 
       // Animate the text elements with stagger effect
-      gsap.fromTo(
-        '.animate-text',
-        { opacity: 0, y: 50 },
-        {
-          delay:3,
-          opacity: 1,
-          y: 0,
-          duration: 2.5,
-          ease: 'power3.out',
-          stagger: 0.3, // Stagger the text animation for a better visual effect
-        }
-      );
+      // 
     }
   }, [isMobile]); // Re-run animation logic when isMobile changes
 
@@ -64,15 +53,15 @@ const MyComponent = (props) => {
     <div
       id="tiltDiv"
       ref={props.abc} // Preserve your original `ref` here
-      className="text-white  xl:ml-16 ml-10 mt-[25vh] animate-text"
+      className="text-white text-4xl md:text-8xl   xl:ml-24 ml-4 mt-[50vh] md:mt-[25vh] animate-text"
     >
-      <h1 className="text-[6vw] lg:text-[4.2vw] leading-[4vw] lg:leading-[4vw] font-[anzo]">
-        HI, I'M <span className=" text-gray-400">CREATIVE </span>
+      <h1 className="  font-[anzo]">
+        HI, I'M <span className=" text-gray-500">CREATIVE </span>
       </h1>
-      <h1 className="font-[anzo] lg:text-[8vw] leading-[11vw] lg:leading-[7vw] text-[10vw] animate-text">
+      <h1 className="font-[anzo]  animate-text">
         DEVELOPER
       </h1>
-      <h1 className="text-[6vw] lg:text-[4.2vw] leading-[4vw] lg:leading-[4vw] font-[anzo] animate-text">
+      <h1 className=" font-[anzo] animate-text">
         TO HIRE
       </h1>
     </div>

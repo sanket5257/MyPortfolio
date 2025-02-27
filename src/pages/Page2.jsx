@@ -26,10 +26,10 @@ const Page2 = () => {
       gsap.registerPlugin(ScrollTrigger);
 
       gsap.from(".rotateText",{
-            y:80,
+            y:20,
             opacity:0,
             duration:2,
-            stagger:5,
+            stagger:3,
             ease:"power1.in",
             scrollTrigger:{
               trigger:".rotateText",
