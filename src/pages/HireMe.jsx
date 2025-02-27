@@ -16,14 +16,15 @@ const HireMe = () => {
   
 
   return (
-    <div onMouseMove={handle} className="overflow-x-hidden p-4 md:pl-[25vh] md:pr-[25vh] text-white relative bg-black h-dvh
+    <div onMouseMove={handle} className="overflow-x-hidden   text-white relative bg-black h-dvh
      w-full">
       <div
         id="dot"
         className="z-20 absolute hidden md:block  bg-white size-4 rounded-full"
       ></div>
-      <div id="main-content" className="h-screen w-full">
-        <div id="getintouch" className="pt-16">
+      <video autoPlay loop playsInline muted  src="./hiremebg.mp4" className="pointer-events-none object-cover h-full w-full"></video>
+      <div id="main-content " className="p-10 absolute top-0 h-screen w-full">
+        <div id="getintouch" className="ml-44 mr-44">
           <h1 className="font-[anzo2] text-xl pb-4">GET IN TOUCH</h1>
           <p className="font-[anzo4] text-7xl">
             I love to hear from you. Whether you have a question or just want to
