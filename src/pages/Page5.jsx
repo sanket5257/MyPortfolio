@@ -11,7 +11,7 @@ const Page5 = () => {
           loop
           muted
           className="pointer-events-none h-full  w-full object-cover"
-          src="./page5bg.mp4"
+          src="./page5bg2.mp4"
         ></video>
         <div className=" pl-5  top-10 xl:p-10 absolute xl:h-[30vw] xl:w-[98vw] xl:flex xl:justify-between ">
           <div className="  xl:w-[50vw]   xl:flex xl:flex-col xl:justify-center xl:items-start  ">
