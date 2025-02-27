@@ -1,85 +1,50 @@
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/all'
-import _gsap from 'gsap/gsap-core'
-import React from 'react'
+import React from "react";
+import Page6Bottom from "../components/Page6Bottom";
 
 const Page5 = () => {
-gsap.registerPlugin(ScrollTrigger)
-
-
-useGSAP(function(){
-  if(window.innerWidth>800){
-    gsap.from(".rotateText2",{
-      transform:'rotateX(-80deg)',
-      opacity:0,
-      duration: 1,
-      stagger:1,
-      scrollTrigger:{
-        trigger:'.rotateText2',
-        // markers:true,
-        start:'top 60%',
-        end:'top -270%',
-        scrub:2
-  
-  
-  
-      }
-    })
-  }else{
-    gsap.registerPlugin(ScrollTrigger);
-
-    gsap.from(".rotateText2",{
-          y:20,
-          opacity:0,
-          duration:2,
-          stagger:2,
-          ease:"power1.out",
-          scrollTrigger:{
-            trigger:".rotateText2",
-            scrub:5,
-            
-          }
-
-
-    })
-
-
-
-  }
-})
-
-
   return (
-    <div id='section2' className=  'xl:p-20 bg-white text-center p-10 text-black'>
-      {/* <h3 className='text-gray-500 text-xl font-[anzo2]'>©  ft.leo.studio 2024 | designed and developed</h3> */}
-    
-    <div id='' className='rotateText2 mt-16 '>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>HELPING</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>MY</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>CLIENTS</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>TO ACHIEVE</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>THEIR</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>DREAMS!</h1>
-    </div>
+    <div className="h-[230vh] xl:h-[200vh] xl:w-full  lg:h-[240vh] md:h-[220vh] bg-white p-2 relative  z-40">
+      <div className="h-[230vh]  lg:h-[240vh] xl:h-[200vh] md:h-[220vh] xl:w-full overflow-hidden bg-black rounded-[4.9vh]">
+        <video
+          playsInline
+          autoPlay
+          loop
+          muted
+          className="pointer-events-none h-full  w-full object-cover"
+          src="./page5bg.mp4"
+        ></video>
+        <div className=" pl-5  top-10 xl:p-10 absolute xl:h-[30vw] xl:w-[98vw] xl:flex xl:justify-between ">
+          <div className="  xl:w-[50vw]   xl:flex xl:flex-col xl:justify-center xl:items-start  ">
+            <h1 className=" text-[25vw]  xl:text-[20vw]    font-[anzo4] uppercase  text-gray-400 ">
+              HOW
+            </h1>
+
+            <h1 className=" text-[25vw] leading-5 xl:leading-10 xl:text-[20vw]  font-[anzo4] uppercase text-white">can</h1>
+          </div>
+          <div className="  xl:w-[50vw]   xl:flex xl:flex-col  xl:justify-center xl:items-end   ">
+            <h1 className=" text-[25vw]  xl:text-[20vw]    font-[anzo4] uppercase  text-gray-400 ">
+              i help
+            </h1>
+
+            <h1 className=" text-[25vw] leading-5 xl:leading-6 xl:text-[20vw]  font-[anzo4] uppercase text-white">you</h1>
+          </div>
+          
+
+          </div>
+        
+
+       
+      </div>
 
 
+      <Page6Bottom/>
 
 
-
-    
     </div>
-  )
-}
 
-export default Page5
+     
+
+  );
+};
+
+export default Page5;

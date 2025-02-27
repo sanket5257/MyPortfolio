@@ -1,37 +1,83 @@
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
+import _gsap from 'gsap/gsap-core'
 import React from 'react'
-import { Link } from "react-router-dom";
 
 const Page4 = () => {
+gsap.registerPlugin(ScrollTrigger)
+
+
+useGSAP(function(){
+  if(window.innerWidth>800){
+    gsap.from(".rotateText2",{
+      transform:'rotateX(-80deg)',
+      opacity:0,
+      duration: 1,
+      stagger:1,
+      scrollTrigger:{
+        trigger:'.rotateText2',
+        // markers:true,
+        start:'top 60%',
+        end:'top -270%',
+        scrub:2
+  
+  
+  
+      }
+    })
+  }else{
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".rotateText2",{
+          y:20,
+          opacity:0,
+          duration:2,
+          stagger:2,
+          ease:"power1.out",
+          scrollTrigger:{
+            trigger:".rotateText2",
+            scrub:5,
+            
+          }
+
+
+    })
+
+
+
+  }
+})
+
+
   return (
-    <div className='h-screen w-full  bg-white p-4 pt-10  '>
-    <div className='relative h-full w-full  overflow-hidden bg-black rounded-3xl '>
-      <video autoPlay muted loop playsInline className='pointer-events-none w-full object-cover h-full' src="./man.mp4"></video>
-        <div className='absolute top-0 px-8 xl:px-16 text-[30vw] xl:text-[18vw] lg:text-[18vw] '>
-         <h1 className="font-[anzo4] uppercase text-gray-400 ">WHAT</h1>
-
-         <h1  className=" font-[anzo4] leading-8  uppercase   text-white">I DO</h1>
-
-
-
-        </div>
-
-        <Link to='/Work' className='font-[anzo] bg-white right-10 absolute top-10 px-12 py-2 rounded-full'>Work</Link>
-
-      <div className=' bottom-4 xl:text-xl md:text-xl text-sm px-8  absolute    '>
-        
-            <h2 className='text-white   font-[anzo1]'>I DESIGN AND DEVELOP </h2>
-            <h3 className='   font-[anzo2]  text-gray-400'>MODERN, IMPACTFUL AND LUXURIOUS</h3>
-            <h2 className='text-white uppercase font-[anzo1]'>websites that seamlessly bridge your goals with needs of your clients.</h2>
-
-           
-        
-
-        
+    <div id='section2' className=  'xl:p-20 bg-white text-center p-10 text-black'>
+      {/* <h3 className='text-gray-500 text-xl font-[anzo2]'>©  ft.leo.studio 2024 | designed and developed</h3> */}
+    
+    <div id='' className='rotateText2 mt-16 '>
+        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>HELPING</h1>
+    </div>
+    <div className='rotateText2'>
+        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>MY</h1>
+    </div>
+    <div className='rotateText2'>
+        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>CLIENTS</h1>
+    </div>
+    <div className='rotateText2'>
+        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>TO ACHIEVE</h1>
+    </div>
+    <div className='rotateText2'>
+        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>THEIR</h1>
+    </div>
+    <div className='rotateText2'>
+        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>DREAMS!</h1>
     </div>
 
 
-    </div>
 
+
+
+    
     </div>
   )
 }
