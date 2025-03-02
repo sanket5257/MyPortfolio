@@ -9,6 +9,8 @@ import Page3 from './pages/Page3';
 import Page4 from './pages/Page4';
 import Page5 from './pages/Page5';
 import Page6 from './pages/Page6';
+import About from './pages/About';
+import Aboutme from './pages/Aboutme';
 
 
 
@@ -33,6 +35,8 @@ const App = () => {
             <Header />
             <Page1 />
           <Page2 />
+          <About/>
+          <Aboutme/>
           <Page3 />
           <Work/>
           <Page4 />
