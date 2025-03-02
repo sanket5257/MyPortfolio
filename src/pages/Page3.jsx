@@ -6,8 +6,8 @@ const Page3 = () => {
     <div className='h-screen w-full  bg-white p-4 pt-10  '>
     <div className='relative h-full w-full  overflow-hidden bg-black rounded-3xl '>
       <video autoPlay muted loop playsInline className='pointer-events-none w-full object-cover h-full' src="./page3bg.mp4"></video>
-        <div className='absolute top-20 ml-4 xl:px-16 text-9xl md:text-[20rem] '>
-         <h1 className="font-[anzo4] uppercase opacity-60 text-gray-400 ">WORK</h1>
+        <div className='absolute top-0 flex justify-center items-center w-full h-full text-9xl md:text-[24rem] '>
+         <h1 className="font-[anzo4] uppercase opacity-55 text-gray-400 ">WORK</h1>
 
          {/* <h1  className=" font-[anzo4] leading-8  uppercase   text-white">I DO</h1> */}
 
@@ -15,7 +15,7 @@ const Page3 = () => {
 
         </div>
 
-        <Link to='/Work' className='font-[anzo] bg-white left-10 absolute top-10 px-12 py-2 rounded-full'>Work</Link>
+        {/* <Link to='/Work' className='font-[anzo] bg-white left-10 absolute top-10 px-12 py-2 rounded-full'>Work</Link> */}
 
       <div className=' bottom-4 xl:text-xl md:text-xl text-sm px-8  absolute    '>
         
