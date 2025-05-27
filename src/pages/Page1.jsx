@@ -51,7 +51,7 @@ useGSAP(function(){
       <video autoPlay muted loop playsInline onLoadedData={tiltRef} className='absolute h-full w-full  pointer-events-none  object-cover' src="./page1bg.mp4"> </video>
       
 
-      <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" />
+      {/* <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" /> */}
 
 
 
