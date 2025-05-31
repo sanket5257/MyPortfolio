@@ -9,19 +9,20 @@ const Aboutme = () => {
           muted
           loop
           playsInline
-          className="pointer-events-none w-full object-cover h-full"
+          className="pointer-events-none w-full opacity-60 object-cover h-full"
           src="./aboutme.mp4"
         ></video>
         <div className="absolute top-10 w-full h-full text-9xl md:text-[24rem] px-16  ">
           <h1 className="font-[anzo4] uppercase text-white ">[about]</h1>
-          <p className="text-white text-[3.5vw] md:text-[1.5vw] font-bold">
-          Hello! I'm Sanket, a final-year B.Tech student specializing in Computer Science and Engineering. I am passionate about technology, and I focus on creating modern, visually appealing, and user-friendly web designs.
+          <p className="text-white text-[3.5vw] md:text-[1.5vw] leading-7 font-bold">
+          Sure! Here's a shorter and updated version of your bio:
 
-As a frontend web developer, I have a deep interest in crafting clean, responsive, and interactive web applications. I bring designs to life by using the latest web technologies such as HTML, CSS, JavaScript, and frameworks like React. My work reflects a blend of functionality and creativity, with a particular emphasis on animations and smooth user experiences.
+---
 
-I am always eager to learn new tools and techniques to stay on top of the ever-evolving field of web development. In addition to my academic background, I love experimenting with creative design ideas and incorporating them into my projects.
+Hi, I’m Sanket—a Computer Science graduate and frontend web developer passionate about building clean, modern, and interactive web applications. I specialize in HTML, CSS, JavaScript, React, and Next.js, with a strong focus on responsive design, smooth animations, and great user experiences. Always curious and creative, I love experimenting with new tools and design ideas.
 
-Feel free to explore my portfolio and connect with me!
+Feel free to check out my portfolio and connect with me!
+
           </p>
         </div>
       </div>

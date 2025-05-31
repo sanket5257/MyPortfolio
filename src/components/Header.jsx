@@ -27,17 +27,17 @@ const Header = () => {
  
 
   return (
-    <div className=" fixed w-full z-50 p-16 bottom-0 sm:p-12 md:p-16 lg:p-20 flex items-center justify-end">
+    <div className=" fixed w-full z-50 p-16 bottom-[15%] sm:p-12 md:p-16 lg:p-20 flex items-center justify-end">
       
       
       
-      <Link to='/HireMe' className=" bg-black border-4 text-cyan-50 px-6 py-2 sm:px-8 sm:py-3 rounded-full hover:bg-gray-500 transition-all duration-200">
+      <Link to='/HireMe' className=" bg-black border-4 text-cyan-50 px-6 py-2 sm:px-6 sm:py-2 rounded-full hover:bg-gray-500 transition-all duration-200">
         Say Hello
       </Link>
     
       <button
         onClick={toggleAudioIndicator}
-        className="ml-10 bg-white px-2 py-2  rounded-3xl flex items-center space-x-0.5"
+        className="ml-5 bg-white px-2 py-2  rounded-3xl flex items-center space-x-0.5"
       >
         <audio
           ref={audioElementRef}

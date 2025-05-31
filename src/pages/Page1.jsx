@@ -5,6 +5,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import TiltText from '../components/TiltText'
 import logo from '../assets/logo.png'
+import Navbar from '../components/Navbar'
 
 
 const Page1 = () => {
@@ -46,14 +47,15 @@ useGSAP(function(){
     <div id='page1' onMouseMove={(e)=>{
       mouseMoving(e)
     }} className='h-screen relative overflow-x-hidden bg-white p-4  '>
+      <Navbar/>
       <div id='video-frame'  className='shadow-xl relative overflow-hidden bg-black shadow-gray-700 h-full w-full  rounded-[5vh]'>
-
-      <video autoPlay muted loop playsInline onLoadedData={tiltRef} className='absolute h-full w-full  pointer-events-none  object-cover' src="./page1bg.mp4"> </video>
+        
+      {/* <video autoPlay muted loop playsInline onLoadedData={tiltRef} className='absolute h-full w-full  pointer-events-none  object-cover' src="./page1bg.mp4"> </video> */}
       
 
       {/* <img className='h-[14vh] absolute top-8 lg:top-4'  src={logo} alt="" /> */}
 
-
+      
 
       <TiltText abc={tiltRef}/>
         <Page1Bottom/>

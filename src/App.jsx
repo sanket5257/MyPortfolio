@@ -11,6 +11,7 @@ import Page5 from './pages/Page5';
 import Page6 from './pages/Page6';
 import About from './pages/About';
 import Aboutme from './pages/Aboutme';
+import Projects from './components/Projects';
 
 
 
@@ -27,7 +28,7 @@ const App = () => {
           
 
           <Routes>
-          <Route path='/Work' element={<Work />} />
+          <Route path='/projects' element={<Projects/>} />
         <Route path='/HireMe' element={<HireMe/>} />
         
         <Route path='/' element={
@@ -38,7 +39,7 @@ const App = () => {
           <About/>
           <Aboutme/>
           <Page3 />
-          <Work/>
+           <Projects/>
           <Page4 />
           <Page5 />
           <Page6/>
