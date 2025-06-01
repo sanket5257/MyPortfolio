@@ -47,7 +47,7 @@ useGSAP(function(){
     <div id='page1' onMouseMove={(e)=>{
       mouseMoving(e)
     }} className='h-screen relative overflow-x-hidden bg-white p-4  '>
-      <Navbar/>
+    
       <div id='video-frame'  className='shadow-xl relative overflow-hidden bg-black shadow-gray-700 h-full w-full  rounded-[5vh]'>
         
       {/* <video autoPlay muted loop playsInline onLoadedData={tiltRef} className='absolute h-full w-full  pointer-events-none  object-cover' src="./page1bg.mp4"> </video> */}

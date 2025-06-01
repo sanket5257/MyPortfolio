@@ -36,7 +36,7 @@ const App = () => {
             <Header />
             <Page1 />
           <Page2 />
-          <About/>
+          {/* <About/> */}
           <Aboutme/>
           <Page3 />
            <Projects/>

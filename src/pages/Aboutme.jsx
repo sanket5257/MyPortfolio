@@ -12,17 +12,10 @@ const Aboutme = () => {
           className="pointer-events-none w-full opacity-60 object-cover h-full"
           src="./aboutme.mp4"
         ></video>
-        <div className="absolute top-10 w-full h-full text-9xl md:text-[24rem] px-16  ">
+        <div className="absolute top-10 md:w-[30vw] h-full text-9xl md:text-[24rem] md:px-16 px-4 ">
           <h1 className="font-[anzo4] uppercase text-white ">[about]</h1>
           <p className="text-white text-[3.5vw] md:text-[1.5vw] leading-7 font-bold">
-          Sure! Here's a shorter and updated version of your bio:
-
----
-
-Hi, I’m Sanket—a Computer Science graduate and frontend web developer passionate about building clean, modern, and interactive web applications. I specialize in HTML, CSS, JavaScript, React, and Next.js, with a strong focus on responsive design, smooth animations, and great user experiences. Always curious and creative, I love experimenting with new tools and design ideas.
-
-Feel free to check out my portfolio and connect with me!
-
+           Hi, I’m Sanket—a frontend developer with a passion for clean, responsive web apps using HTML, CSS, JavaScript, React, and Next.js. I love crafting smooth, modern user experiences. Let’s connect!
           </p>
         </div>
       </div>
