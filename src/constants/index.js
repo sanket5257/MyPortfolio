@@ -73,7 +73,7 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Zentry',
     description:
       'A leaderboard list app that displays scores submitted by different players.',
     
@@ -83,7 +83,7 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
+    name: 'upcoming',
     description: 'This is a single-page calculator app built with React',
     
     image: math,
@@ -92,7 +92,7 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
+    name: 'upcoming',
     description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
     
     image: movie,
@@ -101,9 +101,9 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'upcoming',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'this is demo project for showcasing my skills and projects.',
    
     image: nyeusi,
     repo: 'https://github.com/sanket5257',

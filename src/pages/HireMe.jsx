@@ -23,7 +23,7 @@ const HireMe = () => {
         id="dot"
         className="z-20 absolute hidden md:block  bg-white size-4 rounded-full"
       ></div>
-                  <video autoPlay loop playsInline muted  src="./hiremebg.mp4" className="pointer-events-none object-cover h-full md:h-full w-full"></video>
+                  {/* <video autoPlay loop playsInline muted  src="./hiremebg.mp4" className="pointer-events-none object-cover h-full md:h-full w-full"></video> */}
 
       <div id="main-content " className="p-10 absolute top-0 h-screen w-full">
         <div id="getintouch" className="md:ml-44 md:mr-44">
@@ -33,7 +33,7 @@ const HireMe = () => {
             chat about design, tech & art — shoot me a message.
           </p>
         </div>
-        {/* <div id="buttons" className="pt-14 md:ml-10 md:mr-10  h-[50vh]  md:gap-36 w-full flex justify-center items-start md:items-center flex-col md:flex-row">
+        <div id="buttons" className="pt-14 md:mx-10 h-[50vh]  xl:gap-36 w-full flex justify-center items-start md:items-center flex-col gap-10 md:flex-row">
           <div id="ReachMe" className="">
           <h1 className="font-[anzo2] text-xl pb-4  ">REACH ME AT</h1>
           <h1 className="font-[anzo2] text-xl pb-4 hover:text-orange-500 leading-3 text-gray-500 ">chougulesanket30@gmail.com</h1>
@@ -49,12 +49,12 @@ const HireMe = () => {
 
           </div>
           <div id="sayhello" className="">
-          <button className="bg-[#2C2C2D] hover:text-orange-500 uppercase text-orange-200 w-80 h-16 ">s a y &nbsp; h e l l o</button>
-
+          <button className="bg-[#2C2C2D] hover:text-orange-500 p-4 uppercase text-orange-200 xl:w-80   ">s a y &nbsp; h e l l o</button>
+            
 
           </div>
 
-        </div> */}
+        </div>
         <div id="footer" className="h-[20vh] w-full  flex justify-center items-center" >
 
         <h3 id="run" className="text-gray-500 text-xl font-[anzo2]">
