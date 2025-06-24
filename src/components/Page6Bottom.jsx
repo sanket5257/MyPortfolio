@@ -54,7 +54,7 @@ gsap.from("#rocket",{
         start:"top 70%",
         end:"top 80%",
         
-        // markers:true,
+        markers:true,
           // yoyo:true,
         scrub:5
       }
