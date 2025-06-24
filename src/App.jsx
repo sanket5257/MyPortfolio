@@ -38,9 +38,10 @@ const App = () => {
             <Page1 />
           <Page2 />
           {/* <About/> */}
+          <Projects/>
           <Aboutme/>
           <Page3 />
-           <Projects/>
+           
           <Page4 />
           <Page5 />
           <Page6/>
