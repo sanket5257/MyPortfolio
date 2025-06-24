@@ -17,7 +17,7 @@ useGSAP(function(){
       stagger:1,
       scrollTrigger:{
         trigger:'.rotateText2',
-        // markers:true,
+        markers:true,
         start:'top 80%',
         end:'top -270%',
         scrub:2,
