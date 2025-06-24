@@ -51,7 +51,7 @@ gsap.from("#rocket",{
 
       scrollTrigger:{
         trigger:"#first",
-        start:"top 100%",
+        start:"top 150%",
         end:"top 80%",
         
         markers:true,
