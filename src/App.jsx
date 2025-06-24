@@ -19,27 +19,23 @@ import Projects from './components/Projects';
 
 const App = () => {
   // loading animation
- useEffect(() => {
-  const scroll = new LocomotiveScroll({
-    el: scrollRef.current,
-    smooth: true,
-  });
+  const scrollRef = useRef(null);
 
-  const handleLoad = () => {
-    scroll.update();
-  };
+  useEffect(() => {
+    const scroll = new LocomotiveScroll({
+      el: scrollRef.current,
+      smooth: true,
+    });
 
-  window.addEventListener("load", handleLoad);
-  return () => {
-    window.removeEventListener("load", handleLoad);
-    scroll.destroy();
-  };
-}, []);
+    return () => {
+      scroll.destroy();
+    };
+  }, []);
  
 
   return (
     
-     <div data-scroll-container data-scroll-speed="2" ref={scrollRef}>
+     <div data-scroll-container ref={scrollRef}>
       <Routes>
         <Route path="/projects" element={<Projects />} />
         <Route path="/HireMe" element={<HireMe />} />
