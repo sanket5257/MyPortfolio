@@ -9,45 +9,42 @@ gsap.registerPlugin(ScrollTrigger)
 
 
 useGSAP(function(){
-  if(window.innerWidth>1000){
-    gsap.from(".rotateText2",{
-      transform:'rotateX(-80deg)',
-      opacity:0,
-      duration: 1,
-      stagger:1,
-      scrollTrigger:{
-        trigger:'.rotateText2',
-        markers:true,
-        start:'top 60%',
-        end:'top -270%',
-        scrub:2,
-       
-  
-  
-  
-      }
-    })
-  }else{
-    gsap.registerPlugin(ScrollTrigger);
+  if (window.innerWidth > 1000) {
+      gsap.from('.rotateText2', {
+        transform: 'rotateX(-80deg)',
+        opacity: 0,
+        duration: 1,
+        stagger: 1,
+        scrollTrigger: {
+          trigger: '.rotateText2',
+          start: 'top 60%',
+          end: 'top -270%',
+          scrub: 2,
+        },
+      });
+    }
 
-    gsap.from(".rotateText2",{
-          y:20,
-          opacity:0,
-          duration:2,
-          stagger:2,
-          ease:"power1.out",
-          scrollTrigger:{
-            trigger:".rotateText2",
-            scrub:5,
-            
-          }
+    else{
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap.from(".rotateText2",{
+            y:20,
+            opacity:0,
+            duration:2,
+            stagger:3,
+            ease:"power1.in",
+            scrollTrigger:{
+              trigger:".rotateText2",
+              scrub:5,
+              
+            }
 
 
-    })
+      })
 
 
 
-  }
+    }
 })
 
 
