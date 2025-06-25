@@ -40,11 +40,11 @@ const App = () => {
           {/* <About/> */}
             <Page3 />
           {/* <Projects/> */}
-        
+             <Page4 />
           <Aboutme/>
           
            
-          <Page4 />
+         
           <Page5 />
           <Page6/>
           </div>
