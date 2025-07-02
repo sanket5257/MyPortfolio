@@ -33,11 +33,13 @@ const App = () => {
             <Header />
             <Page1 />
           <Page2 />
-          {/* <About/> */}
-            <Page3 />
-          {/* <Projects/> */}
-             <Page4 />
+         
+        
+         
+           
+                 <Page3 />
           <Aboutme/>
+            <Page4 />
           
            
          
