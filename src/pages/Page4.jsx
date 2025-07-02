@@ -1,15 +1,13 @@
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/all'
-import _gsap from 'gsap/gsap-core'
-import React from 'react'
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+import React from 'react';
 
 const Page4 = () => {
-gsap.registerPlugin(ScrollTrigger)
+  gsap.registerPlugin(ScrollTrigger);
 
-
-useGSAP(function(){
-  if (window.innerWidth > 1000) {
+  useGSAP(function () {
+    if (window.innerWidth > 1000) {
       gsap.from('.rotateText2', {
         transform: 'rotateX(-80deg)',
         opacity: 0,
@@ -45,39 +43,48 @@ useGSAP(function(){
 
 
     }
-})
-
+  });
 
   return (
-    <div id='section2' className=  'xl:p-20 bg-white text-center p-10 text-black'>
-      {/* <h3 className='text-gray-500 text-xl font-[anzo2]'>©  ft.leo.studio 2024 | designed and developed</h3> */}
-    
-    <div id='' className='rotateText2 mt-16 '>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>HELPING</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>MY</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>CLIENTS</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>TO ACHIEVE</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>THEIR</h1>
-    </div>
-    <div className='rotateText2'>
-        <h1 className='text-[40vw] text-black font-[anzo4] leading-[35vw]'>DREAMS!</h1>
-    </div>
+    <div  className="bg-white text-center top-10 xl:p-20 text-black">
+      <h3 className="text-gray-500 text-xl font-[anzo2]">
+        © ft.leo.studio 2025 | designed and developed
+      </h3>
 
+      <div id="section2" className="rotateText2 mt-16">
+        <h1 className="lg:text-[40vw] text-[40vw] text-black font-[anzo4] leading-[20vw] lg:leading-[35vw]">
+          IMPACTFUL
+        </h1>
+      </div>
+      <div className="rotateText2">
+        <h1 className="lg:text-[40vw] text-[40vw] text-black font-[anzo4] leading-[40vw] lg:leading-[35vw]">
+          DESIGN
+        </h1>
+      </div>
+      <div className="rotateText2">
+        <h1 className="lg:text-[40vw] text-[40vw] text-black font-[anzo4] leading-[22vw] lg:leading-[35vw]">
+          IS THE
+        </h1>
+      </div>
+      <div className="rotateText2">
+        <h1 className="lg:text-[40vw] text-[40vw] text-black font-[anzo4] leading-[40vw] lg:leading-[35vw]">
+          DESIGN
+        </h1>
+      </div>
+      <div className="rotateText2">
+        <h1 className="lg:text-[40vw] text-[40vw] text-black font-[anzo4] leading-[22vw] lg:leading-[35vw]">
+          THAT
+        </h1>
+      </div>
+      <div className="rotateText2">
+        <h1 className="lg:text-[40vw] text-[40vw] text-black font-[anzo4] leading-[38vw] lg:leading-[35vw]">
+          WORKS!
+        </h1>
+      </div>
 
-
-
-
-    
+      {/* <div className="h-1 w-1/3 relative left-1/2 -translate-x-1/2 mt-20 bg-black"></div> */}
     </div>
-  )
-}
+  );
+};
 
-export default Page4
+export default Page4;
