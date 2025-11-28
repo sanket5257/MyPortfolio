@@ -36,7 +36,7 @@ const App = () => {
          
                  <Page3 />
           <Aboutme/>
-            {/* <Page4 /> */}
+            <Page4 />
           <Page5 />
           <Page6/>
           </div>
